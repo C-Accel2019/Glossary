@@ -10,6 +10,8 @@ _This living document serves as a community and consensus-driven glossary of ter
 
 A term typically referring to the second concept from the top of a DIKW (Data, Information, Knowledge, Wisdom ) model pyramid. The term is used to indicate internalized, synthesized, or organized information that can readily be applied, e.g., in domain transfer tasks, and to put new information into perspective. In the context of symbolic representations, the term is often used to contrast methods that aim at making semantics machine-understandable from those that merely operate on a syntactic level.  In the context of [knowledge graphs](#knowledge-graph-kg) and in contrast to epistemology, the term is loosely used to describe statements (about the world) irrespective of whether these statements are factual. 
 
+\[**Used by:** A-6677\]
+
 ## Knowledge Graph (KG)
 
 A combination of technologies, specifications, and data cultures for densely interconnecting (Web-scale) data across domains in a human and machine readable and reasonable way. The term knowledge graph itself does not prescribe any particular technology stack. The largest publically available knowledge graph is the so-called [Linked Data](#) cloud based on the RDF/[Semantic Web](#) technology stack.
