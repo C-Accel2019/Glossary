@@ -14,7 +14,7 @@ A term typically referring to the second concept from the top of a DIKW (Data, I
 
 ## Knowledge Graph (KG)
 
-A combination of technologies, specifications, and data cultures for densely interconnecting (Web-scale) data across domains in a human and machine readable and reasonable way. The term knowledge graph itself does not prescribe any particular technology stack. The largest publically available knowledge graph is the so-called [Linked Data](#) cloud based on the RDF/[Semantic Web](#) technology stack.
+A combination of technologies, specifications, and data cultures for densely interconnecting (Web-scale) data across domains in a human and machine readable and reasonable way. The term knowledge graph itself does not prescribe any particular technology stack. More formally, a knowledge graph (as a set of statements) can be consideres as a node and edge labeled directed multigraph. The largest publically available knowledge graph is the so-called [Linked Data](#) cloud based on the RDF/[Semantic Web](#) technology stack.
 
 \[**Used by:** A-6677\]
 
