@@ -8,7 +8,7 @@ _This living document serves as a community and consensus-driven glossary of ter
 
 ## Knowledge
 
-A term typically referring to the second concept from the top of a DIKW (Data, Information, Knowledge, Wisdom ) model pyramid. The term is used to indicate internalized, synthesized, or organized information that can readily be applied, e.g., in domain transfer tasks, and to put new information into perspective. In the context of symbolic representations, the term is often used to contrast methods that aim at making semantics machine-understandable from those that merely operate on a syntactic level.  In the context of [knowledge graphs](#knowledge-graph-kg) and in contrast to epistemology, the term is loosely used to describe statements (about the world) irrespective of whether these statements are factual. 
+A term typically referring to the second concept from the top of a DIKW (Data, Information, Knowledge, Wisdom ) model pyramid. The term is used to indicate internalized, synthesized, organized, or familiar information that can readily be applied, e.g., in domain transfer tasks, and to put new information into perspective. In the context of symbolic representations, the term is often used to contrast methods that aim at making semantics machine-understandable from those that merely operate on a syntactic level.  In the context of [knowledge graphs](#knowledge-graph-kg) and in contrast to epistemology, the term is loosely used to describe statements (about the world) irrespective of whether these statements are factual. 
 
 \[**Used by:** A-6677\]
 
