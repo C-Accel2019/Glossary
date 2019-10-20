@@ -5,9 +5,9 @@
 _This living document serves as a community and consensus-driven glossary of terms for C-Accel 2019 teams in track A and B with the hope to accelerate convergence on common goals and measures for success. In cases where agreement has not yet been reached or where a plurality of views is beneficial, multiple versions can be maintained and term in a single version may be defined multiple times by indicating which teams utilize them. This will enable teams to interoperate without enforcing a single artificial view._
 
 ---
-## Knowledge Graph (KG) (#kg)
+## Knowledge Graph (KG)
 
-A combination of technologies, specifications, and data cultures for densely interconnecting (Web-scale) data across domains in a human and machine readable and reasonable way. The term knowledge graph itself does not prescribe any specifical technical recommendations. The largest publically available knowledge graph is the so-called [Linked Data](#) cloud based on the RDF/[Semantic Web](#) technology stack.
+(#kg) A combination of technologies, specifications, and data cultures for densely interconnecting (Web-scale) data across domains in a human and machine readable and reasonable way. The term knowledge graph itself does not prescribe any specifical technical recommendations. The largest publically available knowledge graph is the so-called [Linked Data](#) cloud based on the RDF/[Semantic Web](#) technology stack.
 
 ## Open Knowledge Network (OKN)
 
