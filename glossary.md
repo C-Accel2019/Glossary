@@ -18,8 +18,44 @@ A combination of technologies, specifications, and data cultures for densely int
 
 \[**Used by:** A-6677\]
 
+## Knowledge Graph Schema
+
+A Knowledge Graph Schema informs the structure of a knowledge graph. It can be expressed, e.g., by means of an ontology using  OWL, or the SHACL Shapes Constraint Language, both of which are W3C standards. Knowledge Graph Schemas can often be understood to be knowledge graphs of classes (types) and their relationships. 
+
+\[**Used by:** A-6677\]
+
+## Linked Data
+
+Linked data currently constitutes the largest publicly available knowledge graph, expressed using W3C standards RDF and OWL. The Semantic Web field has been creating linked data since about 2007.
+
+\[**Used by:** A-6677\]
+
+## Ontology
+
+A shared domain model usually expressed using the W3C standard Web Ontology Language (OWL). OWL can be serialized in RDF, i.e., an OWL document can be understood to be a knowledge graph of classes (types) and their relationships. Ontologies can constitute knowledge graph schemas. 
+
+\[**Used by:** A-6677\]
+
 ## Open Knowledge Network (OKN)
 
 It may make sense to distinguish between *open-knowledge* networks and open *knowledge-networks*. The first case implies a social structure that provides the means to make [knowledge](#) openly available. The second case, in contrast, describes the structure of the data and the mode of contributions to such structure. To avoid conflicts with the narrower and more technical notion of a [knowledge graph](#knowledge-graph-kg), we define an open knowledge network in the first sense. An OKN is a network consisting of partners across academia, industry, and the government set out to foster the publication, retrieval, and integration of openly available knowledge. Such a network may also foster a culture of opening up otherwise siloed knowledge. 
+
+\[**Used by:** A-6677\]
+
+## OWL (Web Ontology Language)
+
+A shared domain model usually expressed using the W3C standard Web Ontology Language (OWL). OWL can be serialized in RDF, i.e., an OWL document can be understood to be a knowledge graph of classes (types) and their relationships. Ontologies can constitute knowledge graph schemas. 
+
+\[**Used by:** A-6677\]
+
+## RDF (Ressource Description Framework)
+
+A W3C standard (2004; revised 2012) for expressing linked data and knowledge graphs. 
+
+\[**Used by:** A-6677\]
+
+## Semantic Web
+
+A field of research concerned with developing methods and tools for efficient data sharing, discovery, integration, and reuse. The community is strongly aligned with W3C standards such as RDF, OWL and SPARQL for expressing and manipulating knowledge graphs. The Semantic Web field also gave rise to Linked Data which constitutes the currently largest publicly available knowledge graph. 
 
 \[**Used by:** A-6677\]
