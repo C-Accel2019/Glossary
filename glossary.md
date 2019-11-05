@@ -10,13 +10,13 @@ _This living document serves as a community and consensus-driven glossary of ter
 
 1.  [Title](#C-Accel-2019-Glossary)
 2.  [Knowledge](#Knowledge)
-3.  [Knowledge Graph (KG)](#Knowledge-Graph-(KG))
+3.  [Knowledge Graph (KG)](#Knowledge-Graph-KG)
 4.  [Knowledge Graph Schema](#Knowledge-Graph-Schema)
 5.  [Linked Data](#Linked-Data)
 6.  [Ontology](#Ontology)
-7.  [Open Knowledge Network (OKN)](#Open-Knowledge-Network-(OKN))
-8.  [OWL (Web Ontology Language)](#OWL-(Web-Ontology-Language))
-9.  [RDF (Ressource Description Framework)](#RDF-(Ressource-Description-Framework))
+7.  [Open Knowledge Network (OKN)](#Open-Knowledge-Network-OKN)
+8.  [OWL (Web Ontology Language)](#OWL-Web-Ontology-Language)
+9.  [RDF (Ressource Description Framework)](#RDF-Ressource-Description-Framework)
 10. [Reasoning](#Reasoning)
 11. [Semantic Web](#Semantic-Web)
 
