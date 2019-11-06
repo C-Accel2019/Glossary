@@ -23,6 +23,9 @@ _This living document serves as a community and consensus-driven glossary of ter
 14. [Reasoning](#Reasoning)
 15. [Representation Learning](#Representation-Learning)
 16. [Semantic Web](#Semantic-Web)
+17. [Geospatial Interoperability](#Geospatial-Interoperability)
+18. [Semantic Interoperability](#Semantic-Interoperability)
+
 
 ## AI (Artificial Intelligence)
 
@@ -160,4 +163,20 @@ A field of research concerned with developing methods and tools for efficient da
 
 
 
+## Geospatial Interoperability
+
+Interoperability measures the ability of different computer systems to communicate and access, exchange, integrate, and (re)use data and other resources autonomously without human intervention. Geospatial Interoperability deals with the interoperability among geospatial systems and software in particular. Standardization is a typical means to achieve interoperability. For instance, International Standardization Organization (ISO) has defined a series of metadata standards (ISO 19115, ISO 19139) to standardize the organization of metadata. Open Geospatial Consortium (OGC) has developed a wide range of web service specifications to define standardized interface for the representation, retrieval and parsing of geospatial data of various types.
+
+\[**Used by:** A-6677\]
+
+[Back to Index](#Index)
+
+## Semantic Interoperability
+
+Semantic interoperability focuses on the semantic understanding of data and software for better and smarter data integration and synthesis. Common interoperable solutions define the syntax for structuring a dataset or invoking an operation, i.e. what are the input, output and number of parameters. Semantic interoperability moves interoperability up to the next level at which different computer systems do not only agree on the protocol to exchange data, but also have a shared understanding on the meanings of data. Semantic interoperability is achieved by machine reasoning on top of a controlled, shared vocabulary, or an ontology that is used to annotate data and is often encoded in machine-understandable formats, such as RDF or OWL.
+
+
+\[**Used by:** A-6677\]
+
+[Back to Index](#Index)
 
