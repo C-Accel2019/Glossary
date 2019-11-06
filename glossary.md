@@ -8,19 +8,29 @@ _This living document serves as a community and consensus-driven glossary of ter
 
 ### Index ###
 
-1.  [Title](#C-Accel-2019-Glossary)
+1.  [Embedding](#Embedding)
 2.  [Knowledge](#Knowledge)
 3.  [Knowledge Graph (KG)](#Knowledge-Graph-KG)
 4.  [Knowledge Graph Schema](#Knowledge-Graph-Schema)
-5.  [Linked Data](#Linked-Data)
-6.  [Ontology](#Ontology)
-7.  [Open Knowledge Network (OKN)](#Open-Knowledge-Network-OKN)
-8.  [OWL (Web Ontology Language)](#OWL-Web-Ontology-Language)
-9.  [RDF (Ressource Description Framework)](#RDF-Ressource-Description-Framework)
-10. [Reasoning](#Reasoning)
-11. [Semantic Web](#Semantic-Web)
-12. [Link Prediction](#Link-Prediction)
+5.  [Link Prediction](#Link-Prediction)
+6.  [Linked Data](#Linked-Data)
+7.  [Ontology](#Ontology)
+8.  [Open Knowledge Network (OKN)](#Open-Knowledge-Network-OKN)
+9.  [OWL (Web Ontology Language)](#OWL-Web-Ontology-Language)
+10. [Question Answering](#Question-Answering)
+11. [RDF (Ressource Description Framework)](#RDF-Ressource-Description-Framework)
+12. [Reasoning](#Reasoning)
 13. [Representation Learning](#Representation-Learning)
+14. [Semantic Web](#Semantic-Web)
+
+
+## Embedding
+
+Originally, in mathematics, an embedding is one instance of some mathematical structure contained within another instance. In [machine learning], embeddings refer to real value vectors as output or intermediate products of neural networks which are treated as representations of symbolic, categoric instances in a hidden space. An embedding can represent a word, a word phrase, a sentence, a paragraph, an image, a sound, an entity/relation in a knowledge graph, and so on.
+
+\[**Used by:** A-6677\]
+
+[Back to Index](#Index)
 
 ## Knowledge
 
@@ -41,6 +51,15 @@ A combination of technologies, specifications, and data cultures for densely int
 ## Knowledge Graph Schema
 
 A Knowledge Graph Schema informs the structure of a knowledge graph. It can be expressed, e.g., by means of an [ontology](#Ontology) using  [OWL](#OWL-Web-Ontology-Language), or the SHACL Shapes Constraint Language, both of which are W3C standards. Knowledge Graph Schemas can often be understood to be knowledge graphs of classes (types) and their relationships. 
+
+\[**Used by:** A-6677\]
+
+[Back to Index](#Index)
+
+## Link Prediction
+
+A key part for knowledge graph completeness, since no knowledge graph is ever complete. In this project, link prediction is to predict whether there are missing labeled edges in knowledge graphs. It typically includes entity prediction, which is to predict the subject given the relation and the object, or to predict the object given the subject and the relation, and relation prediction, which aims to predict possible relations between two entities. Knowledge graph embedding techniques are widely studied to approach this. 
+
 
 \[**Used by:** A-6677\]
 
@@ -78,6 +97,16 @@ A shared domain model usually expressed using the W3C standard Web Ontology Lang
 
 [Back to Index](#Index)
 
+## Question Answering
+
+In the field of [natural language processing], Question Answering (QA) refers to the methods, processes, and systems which allow users to ask questions in the form of natural language sentences and receive one or more answers, often in the form of
+sentences. Almost all QA systems answer a given question based on their internal [knowledge bases] (KB). According to the nature of such knowledge bases, current QA research can be classified into three categories: unstructured data-based QA (e.g. QA systems based on unstructured text), semi-structure tablebased QA (e.g. QA systems based on tables from Wikipedia pages without any schema information), and structured-KB-based QA (so-called [semantic parsing]). In the field of Semantic Web, question answering over knowlewdge graphs is considered as one type of structured-KB-based QA which aims at translating a natural language question into a machine understandable program such as SPARQL and Lambda calculus.
+
+\[**Used by:** A-6677\]
+
+[Back to Index](#Index)
+
+
 ## RDF (Ressource Description Framework)
 
 A W3C standard (2004; revised 2012) for expressing [linked data](#Linked-Data) and [knowledge graphs](#Knowledge-Graph-KG). A corresponding [knowledge graph schema](#Knowledge-Graph-Schema) can be expressed as an [ontology](#Ontology) in [OWL](#OWL-Web-Ontology-Language). A [knowledge graph](#Knowledge-Graph-KG) is expressed in [RDF](#RDF-Ressource-Description-Framework) as a set of so-called RDF triples, i.e., of node-edge-node relations in the [knowledge graph](#Knowledge-Graph-KG). Nodes and edges are identified using IRIs. As part of the RDF standard, RDF Schema provides vocabulary for node and edge types (called classes) and simple relationships between them. For more complex relationships, the Web Ontology Language [OWL](#OWL-Web-Ontology-Language) can be used. For standards documents, see https://www.w3.org/TR/rdf11-primer/
@@ -94,6 +123,14 @@ Computational reasoning can in many forms, and the term is often used ambiguousl
 
 [Back to Index](#Index)
 
+## Representation Learning
+The aim of representation learning is to learn representations of data that make it easy for machine learning models to extract information for different downstream tasks. In contrast to features harvested by labor-intensive feature engineering, these represenations here are automatically learned by different well-designed machine learning/deep learning methods. Good representations of data are expected to convey human priors about the world, e.g., some representations can be shared across tasks, to be distributed, which means a learned representation should be able to capture most of the information hidden in the data, to be disengtangled underlying explanatory factors and to be deep and abstract. 
+
+\[**Used by:** A-6677\]
+
+[Back to Index](#Index)
+
+
 ## Semantic Web
 
 A field of research concerned with developing methods and tools for efficient data sharing, discovery, integration, and reuse. The community is strongly aligned with W3C standards such as RDF, OWL and SPARQL for expressing and manipulating knowledge graphs. The Semantic Web field also gave rise to Linked Data which constitutes the currently largest publicly available knowledge graph. 
@@ -102,23 +139,6 @@ A field of research concerned with developing methods and tools for efficient da
 
 [Back to Index](#Index)
 
-## Link Prediction
 
-A key part for knowledge graph completeness, since no knowledge graph is ever complete. In this project, link prediction is to predict whether there are missing labeled edges in knowledge graphs. It typically includes entity prediction, which is to predict the subject given the relation and the object, or to predict the object given the subject and the relation, and relation prediction, which aims to predict possible relations between two entities. Knowledge graph embedding techniques are widely studied to approach this. 
-
-
-\[**Used by:** A-6677\]
-
-[Back to Index](#Index)
-
-
-
-## Representation Learning
-The aim of representation learning is to learn representations of data that make it easy for machine learning models to extract information for different downstream tasks. In contrast to features harvested by labor-intensive feature engineering, these represenations here are automatically learned by different well-designed machine learning/deep learning methods. Good representations of data are expected to convey human priors about the world, e.g., some representations can be shared across tasks, to be distributed, which means a learned representation should be able to capture most of the information hidden in the data, to be disengtangled underlying explanatory factors and to be deep and abstract. 
-
-
-\[**Used by:** A-6677\]
-
-[Back to Index](#Index)
 
 
