@@ -7,21 +7,30 @@ _This living document serves as a community and consensus-driven glossary of ter
 ---
 
 ### Index ###
+1.  [AI (Artificial Intelligence)](#AI-Artificial-Intelligence)
+2.  [Embedding](#Embedding)
+3.  [GeoAI (Geographic Artificial Intelligence)](#GeoAI-Geographic-Artificial-Intelligence)
+4.  [Knowledge](#Knowledge)
+5.  [Knowledge Graph (KG)](#Knowledge-Graph-KG)
+6.  [Knowledge Graph Schema](#Knowledge-Graph-Schema)
+7.  [Link Prediction](#Link-Prediction)
+8.  [Linked Data](#Linked-Data)
+9.  [Ontology](#Ontology)
+10.  [Open Knowledge Network (OKN)](#Open-Knowledge-Network-OKN)
+11.  [OWL (Web Ontology Language)](#OWL-Web-Ontology-Language)
+12. [Question Answering](#Question-Answering)
+13. [RDF (Ressource Description Framework)](#RDF-Ressource-Description-Framework)
+14. [Reasoning](#Reasoning)
+15. [Representation Learning](#Representation-Learning)
+16. [Semantic Web](#Semantic-Web)
 
-1.  [Embedding](#Embedding)
-2.  [Knowledge](#Knowledge)
-3.  [Knowledge Graph (KG)](#Knowledge-Graph-KG)
-4.  [Knowledge Graph Schema](#Knowledge-Graph-Schema)
-5.  [Link Prediction](#Link-Prediction)
-6.  [Linked Data](#Linked-Data)
-7.  [Ontology](#Ontology)
-8.  [Open Knowledge Network (OKN)](#Open-Knowledge-Network-OKN)
-9.  [OWL (Web Ontology Language)](#OWL-Web-Ontology-Language)
-10. [Question Answering](#Question-Answering)
-11. [RDF (Ressource Description Framework)](#RDF-Ressource-Description-Framework)
-12. [Reasoning](#Reasoning)
-13. [Representation Learning](#Representation-Learning)
-14. [Semantic Web](#Semantic-Web)
+## AI (Artificial Intelligence)
+
+In contrast to natural intelligence, which is the nature of human beings, artificial intelligence is the study of allowing machines to have a similar level of intelligence as humans, such as 'learning' and 'problem solving'. In modern computer science, a main stream of AI is to mimic the neural structure of human brains into designing the architecture of computational models, which are further trained using a large number of data. This type of approaches is commonly named as machine learning.  Techniques developed from artificial intelligence have been used in applications such as image classification and segmentation, language translation, and self-driving cars.
+
+\[**Used by:** A-6677\]
+
+[Back to Index](#Index)
 
 
 ## Embedding
@@ -31,6 +40,16 @@ Originally, in mathematics, an embedding is one instance of some mathematical st
 \[**Used by:** A-6677\]
 
 [Back to Index](#Index)
+
+
+## GeoAI (Geographic Artificial Intelligence)
+
+GeoAI is the marriage of geography and artificial intelligence. On one hand, GeoAI leverages the state-of-the-arts in [AI (Artificial Intelligence)](#AI-Artificial-Intelligence) to address geospatial challenges, such as weather prediction, land use and land cover mapping, and traffic forecasting. On the other hand, GeoAI contributes to the [AI (Artificial Intelligence)](#AI-Artificial-Intelligence) community by introducing spatiotemporal knowledge into the design of methods. One example is the spatially-explicit reinforcement learning to summarize places in a knowledge graph.  
+
+\[**Used by:** A-6677\]
+
+[Back to Index](#Index)
+
 
 ## Knowledge
 
