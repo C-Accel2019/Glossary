@@ -19,6 +19,8 @@ _This living document serves as a community and consensus-driven glossary of ter
 9.  [RDF (Ressource Description Framework)](#RDF-Ressource-Description-Framework)
 10. [Reasoning](#Reasoning)
 11. [Semantic Web](#Semantic-Web)
+12. [Link Prediction](#Link-Prediction)
+13. [Representation Learning](#Representation-Learning)
 
 ## Knowledge
 
@@ -30,7 +32,7 @@ A term typically referring to the second concept from the top of a DIKW (Data, I
 
 ## Knowledge Graph (KG)
 
-A combination of technologies, specifications, and data cultures for densely interconnecting (Web-scale) data across domains in a human and machine readable and reasonable way. The term knowledge graph itself does not prescribe any particular technology stack. More formally, a knowledge graph (as a set of statements) can be consideres as a node and edge labeled directed multigraph. The largest publically available knowledge graph is the so-called [Linked Data](#) cloud based on the [RDF]/[Semantic Web](#) technology stack.
+A combination of technologies, specifications, and data cultures for densely interconnecting (Web-scale) data across domains in a human and machine readable and reasonable way. The term knowledge graph itself does not prescribe any particular technology stack. More formally, a knowledge graph (as a set of statements) can be consideres as a node and edge labeled directed multigraph. The largest publically available knowledge graph is the so-called [Linked Data](#Linked-Data) cloud based on the [RDF](#RDF-Ressource-Description-Framework)/[Semantic Web](#Semantic-Web) technology stack.
 
 \[**Used by:** A-6677\]
 
@@ -38,7 +40,7 @@ A combination of technologies, specifications, and data cultures for densely int
 
 ## Knowledge Graph Schema
 
-A Knowledge Graph Schema informs the structure of a knowledge graph. It can be expressed, e.g., by means of an [ontology] using  [OWL], or the SHACL Shapes Constraint Language, both of which are W3C standards. Knowledge Graph Schemas can often be understood to be knowledge graphs of classes (types) and their relationships. 
+A Knowledge Graph Schema informs the structure of a knowledge graph. It can be expressed, e.g., by means of an [ontology](#Ontology) using  [OWL](#OWL-Web-Ontology-Language), or the SHACL Shapes Constraint Language, both of which are W3C standards. Knowledge Graph Schemas can often be understood to be knowledge graphs of classes (types) and their relationships. 
 
 \[**Used by:** A-6677\]
 
@@ -46,7 +48,7 @@ A Knowledge Graph Schema informs the structure of a knowledge graph. It can be e
 
 ## Linked Data
 
-Linked data currently constitutes the largest publicly available [knowledge graph], expressed using W3C standards [RDF] and [OWL]. The Semantic Web field has been creating linked data since about 2007. https://lod-cloud.net/ lists over 1,200 interconnected knowledge graphs which are publicly accessible. A count from 2015 identified over 37 billion [RDF] triples, i.e., node-edge-node [knowledge graph] statements which could be retrieved from the World Wide Web.
+Linked data currently constitutes the largest publicly available [knowledge graph](#Knowledge-Graph-KG), expressed using W3C standards [RDF](#RDF-Ressource-Description-Framework) and [OWL](#OWL-Web-Ontology-Language). The Semantic Web field has been creating linked data since about 2007. https://lod-cloud.net/ lists over 1,200 interconnected knowledge graphs which are publicly accessible. A count from 2015 identified over 37 billion [RDF](#RDF-Ressource-Description-Framework) triples, i.e., node-edge-node [knowledge graph](#Knowledge-Graph-KG) statements which could be retrieved from the World Wide Web.
 
 \[**Used by:** A-6677\]
 
@@ -54,7 +56,7 @@ Linked data currently constitutes the largest publicly available [knowledge grap
 
 ## Ontology
 
-A shared domain model usually expressed using the W3C standard Web Ontology Language ([OWL]). OWL can be serialized in [RDF], i.e., an OWL document can be understood to be a [knowledge graph] of classes (types) and their relationships. Ontologies can constitute [knowledge graph schemas]. 
+A shared domain model usually expressed using the W3C standard Web Ontology Language ([OWL](#OWL-Web-Ontology-Language)). OWL can be serialized in [RDF](#RDF-Ressource-Description-Framework), i.e., an OWL document can be understood to be a [knowledge graph](#Knowledge-Graph-KG) of classes (types) and their relationships. Ontologies can constitute [knowledge graph schemas](#Knowledge-Graph-Schema). 
 
 \[**Used by:** A-6677\]
 
@@ -62,7 +64,7 @@ A shared domain model usually expressed using the W3C standard Web Ontology Lang
 
 ## Open Knowledge Network (OKN)
 
-It may make sense to distinguish between *open-knowledge* networks and open *knowledge-networks*. The first case implies a social structure that provides the means to make [knowledge](#) openly available. The second case, in contrast, describes the structure of the data and the mode of contributions to such structure. To avoid conflicts with the narrower and more technical notion of a [knowledge graph](#knowledge-graph-kg), we define an open knowledge network in the first sense. An OKN is a network consisting of partners across academia, industry, and the government set out to foster the publication, retrieval, and integration of openly available knowledge. Such a network may also foster a culture of opening up otherwise siloed knowledge. 
+It may make sense to distinguish between *open-knowledge* networks and open *knowledge-networks*. The first case implies a social structure that provides the means to make [knowledge](#Knowledge) openly available. The second case, in contrast, describes the structure of the data and the mode of contributions to such structure. To avoid conflicts with the narrower and more technical notion of a [knowledge graph](#knowledge-graph-kg), we define an open knowledge network in the first sense. An OKN is a network consisting of partners across academia, industry, and the government set out to foster the publication, retrieval, and integration of openly available knowledge. Such a network may also foster a culture of opening up otherwise siloed knowledge. 
 
 \[**Used by:** A-6677\]
 
@@ -70,7 +72,7 @@ It may make sense to distinguish between *open-knowledge* networks and open *kno
 
 ## OWL (Web Ontology Language)
 
-A shared domain model usually expressed using the W3C standard Web Ontology Language (OWL). OWL can be serialized in [RDF], i.e., an OWL document can be understood to be a [knowledge graph] of classes (types) and their relationships. Ontologies can constitute [knowledge graph schemas]. OWL is based on a so-called description logic, which essentially is a decidable sublanguage of first-order predicate logic. As such, OWL allows for logical (deductive) [reasoning], and an OWL document together with an (RDF) knowledge graph constitute a knowledge base in the sense used in the subfield of Artificial Intelligence known as "Knowledge Representation and Reasoning". For standards documents, see  https://www.w3.org/TR/2012/REC-owl2-primer-20121211/
+A shared domain model usually expressed using the W3C standard Web Ontology Language (OWL). OWL can be serialized in [RDF](#RDF-Ressource-Description-Framework), i.e., an OWL document can be understood to be a [knowledge graph](#Knowledge-Graph-KG) of classes (types) and their relationships. Ontologies can constitute [knowledge graph schemas](#Knowledge-Graph-Schema). OWL is based on a so-called description logic, which essentially is a decidable sublanguage of first-order predicate logic. As such, OWL allows for logical (deductive) [reasoning](#Reasoning), and an OWL document together with an (RDF) knowledge graph constitute a knowledge base in the sense used in the subfield of Artificial Intelligence known as "Knowledge Representation and Reasoning". For standards documents, see  https://www.w3.org/TR/2012/REC-owl2-primer-20121211/
 
 \[**Used by:** A-6677\]
 
@@ -78,7 +80,7 @@ A shared domain model usually expressed using the W3C standard Web Ontology Lang
 
 ## RDF (Ressource Description Framework)
 
-A W3C standard (2004; revised 2012) for expressing [linked data] and [knowledge graphs]. A corresponding [knowledge graph schema] can be expressed as an [ontology] in [OWL]. A [knowledge graph] is expressed in [RDF] as a set of so-called RDF triples, i.e., of node-edge-node relations in the [knowledge graph]. Nodes and edges are identified using IRIs. As part of the RDF standard, RDF Schema provides vocabulary for node and edge types (called classes) and simple relationships between them. For more complex relationships, the Web Ontology Language [OWL] can be used. For standards documents, see https://www.w3.org/TR/rdf11-primer/
+A W3C standard (2004; revised 2012) for expressing [linked data](#Linked-Data) and [knowledge graphs](#Knowledge-Graph-KG). A corresponding [knowledge graph schema](#Knowledge-Graph-Schema) can be expressed as an [ontology](#Ontology) in [OWL](#OWL-Web-Ontology-Language). A [knowledge graph](#Knowledge-Graph-KG) is expressed in [RDF](#RDF-Ressource-Description-Framework) as a set of so-called RDF triples, i.e., of node-edge-node relations in the [knowledge graph](#Knowledge-Graph-KG). Nodes and edges are identified using IRIs. As part of the RDF standard, RDF Schema provides vocabulary for node and edge types (called classes) and simple relationships between them. For more complex relationships, the Web Ontology Language [OWL](#OWL-Web-Ontology-Language) can be used. For standards documents, see https://www.w3.org/TR/rdf11-primer/
 
 \[**Used by:** A-6677\]
 
@@ -86,7 +88,7 @@ A W3C standard (2004; revised 2012) for expressing [linked data] and [knowledge 
 
 ## Reasoning
 
-Computational reasoning can in many forms, and the term is often used ambiguously. The W3C [Semantic Web] standards [RDF] and [OWL] natively support so called *deductive* reasoning, which is based on formal logic and logical consequences which can be derived from given facts, rules, and/or other statements made in formal logic. E.g., given the statement that *Black Beauty* is a horse, and the statement that every horse is a mammal, we can arrive at the logical consequence that *Black Beauty* is a mammal. The example just given can be expressed in [RDF], and the [RDF] standard prescribes this kind of reasoning. The Web Ontology Language [OWL] can be used to express more complex relationships that can then also be used for deductive reasoning.
+Computational reasoning can in many forms, and the term is often used ambiguously. The W3C [Semantic Web](#Semantic-Web) standards [RDF](#RDF-Ressource-Description-Framework) and [OWL](#OWL-Web-Ontology-Language) natively support so called *deductive* reasoning, which is based on formal logic and logical consequences which can be derived from given facts, rules, and/or other statements made in formal logic. E.g., given the statement that *Black Beauty* is a horse, and the statement that every horse is a mammal, we can arrive at the logical consequence that *Black Beauty* is a mammal. The example just given can be expressed in [RDF](#RDF-Ressource-Description-Framework), and the [RDF](#RDF-Ressource-Description-Framework) standard prescribes this kind of reasoning. The Web Ontology Language [OWL](#OWL-Web-Ontology-Language) can be used to express more complex relationships that can then also be used for deductive reasoning.
 
 \[**Used by:** A-6677\]
 
