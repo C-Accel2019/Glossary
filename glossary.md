@@ -29,7 +29,7 @@ _This living document serves as a community and consensus-driven glossary of ter
 
 ## AI (Artificial Intelligence)
 
-In contrast to natural intelligence, which is the nature of human beings, artificial intelligence is the study of allowing machines to have a similar level of intelligence as humans, such as 'learning' and 'problem solving'. In modern computer science, a main stream of AI is to mimic the neural structure of human brains into designing the architecture of computational models, which are further trained using a large number of data. This type of approaches is commonly named as machine learning.  Techniques developed from artificial intelligence have been used in applications such as image classification and segmentation, language translation, and self-driving cars.
+In contrast to natural intelligence, which is an emergent property of evolved organic life, artificial intelligence is the study of building machines and programming computers to perform actions that seem intelligent, such as 'learning' and 'problem solving'. In computer science today, a main subdiscipline in AI is [Artificial Neural Networks], which use computational models that mimic the behavior of human neurons, and can be trained to provide accurate results even in environments that contain noise. Another type of approach in AI is called [Machine Learning], which relies on statistical and mathematical models to analyze data. Techniques developed from artificial intelligence have been used in applications such as image classification and segmentation, language translation, self-driving cars, and more.
 
 \[**Used by:** A-6677\]
 
@@ -38,7 +38,7 @@ In contrast to natural intelligence, which is the nature of human beings, artifi
 
 ## Embedding
 
-Originally, in mathematics, an embedding is one instance of some mathematical structure contained within another instance. In [machine learning], embeddings refer to real value vectors as output or intermediate products of neural networks which are treated as representations of symbolic, categoric instances in a hidden space. An embedding can represent a word, a word phrase, a sentence, a paragraph, an image, a sound, an entity/relation in a knowledge graph, and so on.
+In mathematics an embedding is an instance of a mathematical structure contained within another instance. In [AI](#AI-Artificial-Intelligence), embeddings refer to the practice of mapping data with a defined vocabulary in high dimensional space to vectors of real numbers in a lower dimensional space. An embedding can represent words, word phrases, sentences, paragraphs, images, sound, entities/relations in a knowledge graph, and so on.
 
 \[**Used by:** A-6677\]
 
@@ -47,7 +47,7 @@ Originally, in mathematics, an embedding is one instance of some mathematical st
 
 ## GeoAI (Geographic Artificial Intelligence)
 
-GeoAI is the marriage of geography and artificial intelligence. On one hand, GeoAI leverages the state-of-the-arts in [AI (Artificial Intelligence)](#AI-Artificial-Intelligence) to address geospatial challenges, such as weather prediction, land use and land cover mapping, and traffic forecasting. On the other hand, GeoAI contributes to the [AI (Artificial Intelligence)](#AI-Artificial-Intelligence) community by introducing spatiotemporal knowledge into the design of methods. One example is the spatially-explicit reinforcement learning to summarize places in a knowledge graph.  
+GeoAI is the combination of geography and artificial intelligence. GeoAI leverages the state-of-the-art in [AI (Artificial Intelligence)](#AI-Artificial-Intelligence) to address geospatial challenges, such as weather prediction, land use and land cover mapping, and traffic forecasting. GeoAI also contributes to the [AI (Artificial Intelligence)](#AI-Artificial-Intelligence) community by introducing spatiotemporal knowledge into methods design. One example is using spatially-explicit reinforcement learning to summarize places in a knowledge graph.  
 
 \[**Used by:** A-6677\]
 
@@ -56,7 +56,7 @@ GeoAI is the marriage of geography and artificial intelligence. On one hand, Geo
 
 ## Geospatial Interoperability
 
-Interoperability measures the ability of different computer systems to communicate and access, exchange, integrate, and (re)use data and other resources autonomously without human intervention. Geospatial Interoperability deals with the interoperability among geospatial systems and software in particular. Standardization is a typical means to achieve interoperability. For instance, International Standardization Organization (ISO) has defined a series of metadata standards (ISO 19115, ISO 19139) to standardize the organization of metadata. Open Geospatial Consortium (OGC) has developed a wide range of web service specifications to define standardized interface for the representation, retrieval and parsing of geospatial data of various types.
+Interoperability measures the ability of different computer systems to communicate and access, exchange, integrate, and (re)use data and other resources autonomously without human intervention. Geospatial Interoperability deals with the interoperability among geospatial systems, and software in particular. Standardization is a typical means to achieve interoperability. For instance, International Standardization Organization (ISO) has defined a series of metadata standards (ISO 19115, ISO 19139) to standardize the organization of metadata. And the Open Geospatial Consortium (OGC) has developed a wide range of web service specifications to define a standardized interface for the representation, retrieval and parsing of geospatial data of various types.
 
 \[**Used by:** A-6677\]
 
@@ -65,7 +65,7 @@ Interoperability measures the ability of different computer systems to communica
 
 ## Knowledge
 
-A term typically referring to the second concept from the top of a DIKW (Data, Information, Knowledge, Wisdom ) model pyramid. The term is used to indicate internalized, synthesized, organized, or familiar information that can readily be applied, e.g., in domain transfer tasks, and to put new information into perspective. In the context of symbolic representations, the term is often used to contrast methods that aim at making semantics machine-understandable from those that merely operate on a syntactic level.  In the context of [knowledge graphs](#knowledge-graph-kg) and in contrast to epistemology, the term is loosely used to describe statements (about the world) irrespective of whether these statements are factual. 
+A term typically referring to the second concept from the top of a DIKW (Data, Information, Knowledge, Wisdom) model pyramid. The term is used to indicate internalized, synthesized, organized, or familiar information that can readily be applied, for instance, in domain transfer tasks, and used to put new information into perspective. In the context of symbolic representations, the term is often used to contrast methods that aim at making semantics machine-understandable from those that merely operate on a syntactic level.  In the context of [knowledge graphs](#knowledge-graph-kg) and in contrast to epistemology, the term is loosely used to describe statements (about the world) irrespective of whether these statements are factual. 
 
 \[**Used by:** A-6677\]
 
@@ -74,7 +74,7 @@ A term typically referring to the second concept from the top of a DIKW (Data, I
 
 ## Knowledge Graph (KG)
 
-A combination of technologies, specifications, and data cultures for densely interconnecting (Web-scale) data across domains in a human and machine readable and reasonable way. The term knowledge graph itself does not prescribe any particular technology stack. More formally, a knowledge graph (as a set of statements) can be considered as a node and edge labeled directed multigraph. The largest publicly available knowledge graph is the so-called [Linked Data](#Linked-Data) cloud based on the [RDF](#RDF-Resource-Description-Framework)/[Semantic Web](#Semantic-Web) technology stack.
+A combination of technologies, specifications, and data cultures for densely interconnecting (Web-scale) data across domains in a human and machine readable and reasonable way. The term knowledge graph itself does not prescribe any particular technology stack. More formally, a knowledge graph (as a set of statements) can be thought of as a node and edge labeled directed multigraph. The largest publicly available knowledge graph is the so-called [Linked Data](#Linked-Data) cloud based on the [RDF](#RDF-Resource-Description-Framework)/[Semantic Web](#Semantic-Web) technology stack.
 
 \[**Used by:** A-6677\]
 
@@ -83,7 +83,7 @@ A combination of technologies, specifications, and data cultures for densely int
 
 ## Knowledge Graph Schema
 
-A Knowledge Graph Schema informs the structure of a knowledge graph. It can be expressed, e.g., by means of an [ontology](#Ontology) using  [OWL](#OWL-Web-Ontology-Language), or the SHACL Shapes Constraint Language, both of which are W3C standards. Knowledge Graph Schemas can often be understood to be knowledge graphs of classes (types) and their relationships. 
+A Knowledge Graph Schema informs the structure of a knowledge graph. It can be expressed, for instance, by means of an [ontology](#Ontology) using  [OWL](#OWL-Web-Ontology-Language), or the SHACL Shapes Constraint Language, both of which are W3C standards. Knowledge Graph Schemas can often be understood to be knowledge graphs of classes (types) and their relationships. 
 
 \[**Used by:** A-6677\]
 
@@ -92,7 +92,7 @@ A Knowledge Graph Schema informs the structure of a knowledge graph. It can be e
 
 ## Link Prediction
 
-A key part for knowledge graph completeness, since no knowledge graph is ever complete. In this project, link prediction is to predict whether there are missing labeled edges in knowledge graphs. It typically includes entity prediction, which is to predict the subject given the relation and the object, or to predict the object given the subject and the relation, and relation prediction, which aims to predict possible relations between two entities. Knowledge graph embedding techniques are widely studied to approach this. 
+Link Prediction is important for ensuring knowledge graph completeness, since no knowledge graph is ever complete. In this project, link prediction is to predict whether there are missing labeled edges in knowledge graphs. It typically includes entity prediction, which is to predict the subject given the relation and the object, or to predict the object given the subject and the relation. It can also involve relation prediction, which aims to predict possible relations between two entities. [Knowledge graph embedding](#Embedding) techniques are a widely studied to approach to Link Prediction. 
 
 \[**Used by:** A-6677\]
 
@@ -101,7 +101,7 @@ A key part for knowledge graph completeness, since no knowledge graph is ever co
 
 ## Linked Data
 
-Linked data currently constitutes the largest publicly available [knowledge graph](#Knowledge-Graph-KG), expressed using W3C standards [RDF](#RDF-Resource-Description-Framework) and [OWL](#OWL-Web-Ontology-Language). The Semantic Web field has been creating linked data since about 2007. https://lod-cloud.net/ lists over 1,200 interconnected knowledge graphs which are publicly accessible. A count from 2015 identified over 37 billion [RDF](#RDF-Resource-Description-Framework) triples, i.e., node-edge-node [knowledge graph](#Knowledge-Graph-KG) statements which could be retrieved from the World Wide Web.
+Linked data currently constitutes the largest publicly available [knowledge graph](#Knowledge-Graph-KG), expressed using W3C standards [RDF](#RDF-Resource-Description-Framework) and [OWL](#OWL-Web-Ontology-Language). The [Semantic Web](#Semantic-Web) field has been creating linked data since about 2007. https://lod-cloud.net/ lists over 1,200 interconnected [knowledge graphs](#Knowledge-Graph-KG) which are publicly accessible. A count from 2015 identified over 37 billion [RDF](#RDF-Resource-Description-Framework) triples, i.e., node-edge-node [knowledge graph](#Knowledge-Graph-KG) statements which could be retrieved from the World Wide Web.
 
 \[**Used by:** A-6677\]
 
@@ -110,7 +110,7 @@ Linked data currently constitutes the largest publicly available [knowledge grap
 
 ## Ontology
 
-A shared domain model usually expressed using the W3C standard Web Ontology Language ([OWL](#OWL-Web-Ontology-Language)). OWL can be serialized in [RDF](#RDF-Resource-Description-Framework), i.e., an OWL document can be understood to be a [knowledge graph](#Knowledge-Graph-KG) of classes (types) and their relationships. Ontologies can constitute [knowledge graph schemas](#Knowledge-Graph-Schema). 
+A shared domain model usually expressed using the W3C standard [Web Ontology Language (OWL)](#OWL-Web-Ontology-Language). [OWL](#OWL-Web-Ontology-Language) can be serialized in [RDF](#RDF-Resource-Description-Framework), that is, an [OWL](#OWL-Web-Ontology-Language) document that can be understood to be a [knowledge graph](#Knowledge-Graph-KG) of classes (types) and their relationships. Ontologies can constitute [knowledge graph schemas](#Knowledge-Graph-Schema). 
 
 \[**Used by:** A-6677\]
 
@@ -128,7 +128,7 @@ It may make sense to distinguish between *open-knowledge* networks and open *kno
 
 ## OWL (Web Ontology Language)
 
-A shared domain model usually expressed using the W3C standard Web Ontology Language (OWL). OWL can be serialized in [RDF](#RDF-Resource-Description-Framework), i.e., an OWL document can be understood to be a [knowledge graph](#Knowledge-Graph-KG) of classes (types) and their relationships. Ontologies can constitute [knowledge graph schemas](#Knowledge-Graph-Schema). OWL is based on a so-called description logic, which essentially is a decidable sublanguage of first-order predicate logic. As such, OWL allows for logical (deductive) [reasoning](#Reasoning), and an OWL document together with an (RDF) knowledge graph constitute a knowledge base in the sense used in the subfield of Artificial Intelligence known as "Knowledge Representation and Reasoning". For standards documents, see  https://www.w3.org/TR/2012/REC-owl2-primer-20121211/
+A shared domain model usually expressed using the W3C standard [Web Ontology Language (OWL)](#OWL-Web-Ontology-Language). [OWL](#OWL-Web-Ontology-Language) can be serialized in [RDF](#RDF-Resource-Description-Framework), that is, an [OWL](#OWL-Web-Ontology-Language) document that can be understood to be a [knowledge graph](#Knowledge-Graph-KG) of classes (types) and their relationships. Ontologies can constitute [knowledge graph schemas](#Knowledge-Graph-Schema). [OWL](#OWL-Web-Ontology-Language) is based on description logic, which essentially is a decidable sublanguage of first-order predicate logic. As such, [OWL](#OWL-Web-Ontology-Language) allows for logical (deductive) [reasoning](#Reasoning), and an [OWL](#OWL-Web-Ontology-Language) document together with an ([RDF](#RDF-Resource-Description-Framework)) knowledge graph constitute a knowledge base in the sense used in the subfield of [Artificial Intelligence](#AI-Artificial-Intelligence) known as "Knowledge Representation and Reasoning". For standards documents, see  https://www.w3.org/TR/2012/REC-owl2-primer-20121211/
 
 \[**Used by:** A-6677\]
 
@@ -138,7 +138,7 @@ A shared domain model usually expressed using the W3C standard Web Ontology Lang
 ## Question Answering
 
 In the field of [natural language processing], Question Answering (QA) refers to the methods, processes, and systems which allow users to ask questions in the form of natural language sentences and receive one or more answers, often in the form of
-sentences. Almost all QA systems answer a given question based on their internal [knowledge bases] (KB). According to the nature of such knowledge bases, current QA research can be classified into three categories: unstructured data-based QA (e.g. QA systems based on unstructured text), semi-structure table-based QA (e.g. QA systems based on tables from Wikipedia pages without any schema information), and structured-KB-based QA (so-called [semantic parsing]). In the field of Semantic Web, question answering over knowledge graphs is considered as one type of structured-KB-based QA which aims at translating a natural language question into a machine understandable program such as SPARQL and Lambda calculus.
+sentences. Almost all QA systems answer a given question based on their internal [knowledge bases] (KB). According to the nature of such knowledge bases, current QA research can be classified into three categories: unstructured data-based QA (e.g. QA systems based on unstructured text), semi-structure table-based QA (e.g. QA systems based on tables from Wikipedia pages without any schema information), and structured-KB-based QA (so-called [semantic parsing]). In the field of [Semantic Web](#Semantic-Web), question answering over [knowledge graphs](#Knowledge-Graph-KG) is considered as one type of structured-KB-based QA which aims at translating a natural language question into a machine understandable program such as SPARQL and Lambda calculus.
 
 \[**Used by:** A-6677\]
 
@@ -147,7 +147,7 @@ sentences. Almost all QA systems answer a given question based on their internal
 
 ## RDF (Resource Description Framework)
 
-A W3C standard (2004; revised 2012) for expressing [linked data](#Linked-Data) and [knowledge graphs](#Knowledge-Graph-KG). A corresponding [knowledge graph schema](#Knowledge-Graph-Schema) can be expressed as an [ontology](#Ontology) in [OWL](#OWL-Web-Ontology-Language). A [knowledge graph](#Knowledge-Graph-KG) is expressed in [RDF](#RDF-Resource-Description-Framework) as a set of so-called RDF triples, i.e., of node-edge-node relations in the [knowledge graph](#Knowledge-Graph-KG). Nodes and edges are identified using IRIs. As part of the RDF standard, RDF Schema provides vocabulary for node and edge types (called classes) and simple relationships between them. For more complex relationships, the Web Ontology Language [OWL](#OWL-Web-Ontology-Language) can be used. For standards documents, see https://www.w3.org/TR/rdf11-primer/
+RResource Description Framework is a W3C standard (2004; revised 2012) for expressing [linked data](#Linked-Data) and [knowledge graphs](#Knowledge-Graph-KG). A corresponding [knowledge graph schema](#Knowledge-Graph-Schema) can be expressed as an [ontology](#Ontology) in [OWL](#OWL-Web-Ontology-Language). A [knowledge graph](#Knowledge-Graph-KG) is expressed in [RDF](#RDF-Resource-Description-Framework) as a set of RDF triples, that is, of node-edge-node relations in the [knowledge graph](#Knowledge-Graph-KG). Nodes and edges are identified using IRIs. As part of the RDF standard, RDF Schema provides vocabulary for node and edge types (called classes) and simple relationships between them. For more complex relationships, the Web Ontology Language [OWL](#OWL-Web-Ontology-Language) can be used. For standards documents, see https://www.w3.org/TR/rdf11-primer/
 
 \[**Used by:** A-6677\]
 
@@ -156,7 +156,7 @@ A W3C standard (2004; revised 2012) for expressing [linked data](#Linked-Data) a
 
 ## Reasoning
 
-Computational reasoning can in many forms, and the term is often used ambiguously. The W3C [Semantic Web](#Semantic-Web) standards [RDF](#RDF-Resource-Description-Framework) and [OWL](#OWL-Web-Ontology-Language) natively support so called *deductive* reasoning, which is based on formal logic and logical consequences which can be derived from given facts, rules, and/or other statements made in formal logic. E.g., given the statement that *Black Beauty* is a horse, and the statement that every horse is a mammal, we can arrive at the logical consequence that *Black Beauty* is a mammal. The example just given can be expressed in [RDF](#RDF-Resource-Description-Framework), and the [RDF](#RDF-Resource-Description-Framework) standard prescribes this kind of reasoning. The Web Ontology Language [OWL](#OWL-Web-Ontology-Language) can be used to express more complex relationships that can then also be used for deductive reasoning.
+Computational reasoning can in many forms, and the term is often used ambiguously. The W3C [Semantic Web](#Semantic-Web) standards [RDF](#RDF-Resource-Description-Framework) and [OWL](#OWL-Web-Ontology-Language) natively support *deductive* reasoning, which is based on formal logic and logical consequences which can be derived from given facts, rules, and/or other statements made in formal logic. For instance, given the statement "*Black Beauty* is a horse", and the statement "every horse is a mammal", we can arrive at the logical consequence that "*Black Beauty* is a mammal". The example just given can be expressed in [RDF](#RDF-Resource-Description-Framework), and the [RDF](#RDF-Resource-Description-Framework) standard prescribes this kind of reasoning. The Web Ontology Language [OWL](#OWL-Web-Ontology-Language) can be used to express more complex relationships that can then also be used for deductive reasoning.
 
 \[**Used by:** A-6677\]
 
@@ -164,7 +164,7 @@ Computational reasoning can in many forms, and the term is often used ambiguousl
 
 
 ## Representation Learning
-The aim of representation learning is to learn representations of data that make it easy for machine learning models to extract information for different downstream tasks. In contrast to features harvested by labor-intensive feature engineering, these representations here are automatically learned by different well-designed machine learning/deep learning methods. Good representations of data are expected to convey human priors about the world, e.g., some representations can be shared across tasks, to be distributed, which means a learned representation should be able to capture most of the information hidden in the data, to be disentangled underlying explanatory factors and to be deep and abstract. 
+The aim of representation learning is to learn representations of data that make it easy for [machine learning] models to extract information for different downstream tasks. In contrast to features harvested by labor-intensive feature engineering, these representations are automatically learned by different well-designed [machine learning]/[deep learning] methods. Good representations of data are expected to convey human priors about the world. For instance, some representations can be shared across tasks. This means a learned representation should be able to capture most of the information hidden in the data, even if it is distributed. Representation learning can disentangle underlying explanatory factors in deep and abstract ways. 
 
 \[**Used by:** A-6677\]
 
@@ -173,7 +173,7 @@ The aim of representation learning is to learn representations of data that make
 
 ## Semantic Interoperability
 
-Semantic interoperability focuses on the semantic understanding of data and software for better and smarter data integration and synthesis. Common interoperable solutions define the syntax for structuring a dataset or invoking an operation, i.e. what are the input, output and number of parameters. Semantic interoperability moves interoperability up to the next level at which different computer systems do not only agree on the protocol to exchange data, but also have a shared understanding on the meanings of data. Semantic interoperability is achieved by machine reasoning on top of a controlled, shared vocabulary, or an ontology that is used to annotate data and is often encoded in machine-understandable formats, such as RDF or OWL.
+Semantic interoperability focuses on the semantic understanding of data and software for better and smarter data integration and synthesis. Common interoperable solutions define the syntax for structuring a dataset or invoking an operation, that is, what are the inputs, outputs, and number of parameters. Semantic interoperability moves interoperability up to the next level, where different computer systems not only agree on a protocol to exchange data, but also have a shared understanding of the semantics. Semantic interoperability is achieved by machine reasoning on top of a controlled, shared vocabulary, or an [ontology](#Ontology) is used to annotate data and is encoded in machine-understandable formats, such as [RDF](#RDF-Resource-Description-Framework) or [OWL](#OWL-Web-Ontology-Language).
 
 
 \[**Used by:** A-6677\]
@@ -183,7 +183,7 @@ Semantic interoperability focuses on the semantic understanding of data and soft
 
 ## Semantic Web
 
-A field of research concerned with developing methods and tools for efficient data sharing, discovery, integration, and reuse. The community is strongly aligned with W3C standards such as RDF, OWL and SPARQL for expressing and manipulating knowledge graphs. The Semantic Web field also gave rise to Linked Data which constitutes the currently largest publicly available knowledge graph. 
+A field of research concerned with developing methods and tools for efficient data sharing, discovery, integration, and reuse. The community is strongly aligned with W3C standards such as [RDF](#RDF-Resource-Description-Framework), [OWL](#OWL-Web-Ontology-Language) and SPARQL for expressing and manipulating [knowledge graphs](#Knowledge-Graph-KG). [Linked Data](#Linked-Data) emerged from the Semantic Web, which constitutes the largest public [knowledge graph](#Knowledge-Graph-KG) that is currently available. 
 
 \[**Used by:** A-6677\]
 
