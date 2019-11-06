@@ -104,7 +104,7 @@ A field of research concerned with developing methods and tools for efficient da
 
 ## Link Prediction
 
-A key part for knowledge graph completeness, since no knowledge graph is ever complete. In this project, link prediction is to predict whether there are missing labeled edges in knowledge graphs. It typically includes entity prediction, which is to predict the subject given the relation and the object, or to predict the object given the subject and the relation, and relation prediction, which aims to predict possible relations between two entities. Knowledge graph embedding techniques are widely studied to approach this. For more details, see https://ieeexplore.ieee.org/abstract/document/8047276.
+A key part for knowledge graph completeness, since no knowledge graph is ever complete. In this project, link prediction is to predict whether there are missing labeled edges in knowledge graphs. It typically includes entity prediction, which is to predict the subject given the relation and the object, or to predict the object given the subject and the relation, and relation prediction, which aims to predict possible relations between two entities. Knowledge graph embedding techniques are widely studied to approach this. 
 
 
 \[**Used by:** A-6677\]
@@ -114,7 +114,7 @@ A key part for knowledge graph completeness, since no knowledge graph is ever co
 
 
 ## Representation Learning
-The aim of representation learning is to learn representations of data that make it easy for machine learning models to extract information for different downstream tasks. In contrast to features harvested by labor-intensive feature engineering, these represenations here are automatically learned by different well-designed machine learning/deep learning methods. Good representations of data are expected to convey human priors about the world, e.g., some representations can be shared across tasks, to be distributed, which means a learned representation should be able to capture most of the information hidden in the data, to be disengtangled underlying explanatory factors and to be deep and abstract. See more in https://ieeexplore.ieee.org/document/6472238.
+The aim of representation learning is to learn representations of data that make it easy for machine learning models to extract information for different downstream tasks. In contrast to features harvested by labor-intensive feature engineering, these represenations here are automatically learned by different well-designed machine learning/deep learning methods. Good representations of data are expected to convey human priors about the world, e.g., some representations can be shared across tasks, to be distributed, which means a learned representation should be able to capture most of the information hidden in the data, to be disengtangled underlying explanatory factors and to be deep and abstract. 
 
 
 \[**Used by:** A-6677\]
