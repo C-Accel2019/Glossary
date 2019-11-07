@@ -29,7 +29,7 @@ _This living document serves as a community and consensus-driven glossary of ter
 
 ## AI (Artificial Intelligence)
 
-In contrast to natural intelligence, which is an emergent property of evolved organic life, artificial intelligence is the study of building machines and programming computers to perform actions that seem intelligent, such as 'learning' and 'problem solving'. In computer science today, a main subdiscipline in AI is [Artificial Neural Networks], which use computational models that mimic the behavior of human neurons, and can be trained to provide accurate results even in environments that contain noise. Another type of approach in AI is called [Machine Learning], which relies on statistical and mathematical models to analyze data. Techniques developed from artificial intelligence have been used in applications such as image classification and segmentation, language translation, self-driving cars, and more.
+In contrast to natural intelligence, which is an emergent property of evolved organic life, artificial intelligence is the research field of building machines and programming computers to perform actions that seem intelligent, such as 'learning,' 'problem solving' and '[reasoning](#Reasoning)'. Artificial Intelligence has many subdisciplines, including [Machine Learning], which relies on statistical and mathematical models to analyze data, and [Knowledge Representation], which studies methods and algorithms to encode knowledge (such as in [knowledge graphs](#Knowledge-Graph-KG) and [Ontologies](#Ontology)) by means of formal logic, and to [reason](#Reasoning) over them. In computer science today, one prominent approach to [Machine Learning] uses [Artificial Neural Networks] , which use computational models that are inspired by the behavior of human neurons, and can be trained to solve certain types of problems even in environments that contain noise. Techniques developed from artificial intelligence have been used in applications such as image classification and segmentation, expert systems, language translation, self-driving cars, and more.
 
 \[**Used by:** A-6677\]
 
@@ -38,7 +38,7 @@ In contrast to natural intelligence, which is an emergent property of evolved or
 
 ## Embedding
 
-In mathematics an embedding is an instance of a mathematical structure contained within another instance. In [AI](#AI-Artificial-Intelligence), embeddings refer to the practice of mapping data with a defined vocabulary in high dimensional space to vectors of real numbers in a lower dimensional space. An embedding can represent words, word phrases, sentences, paragraphs, images, sound, entities/relations in a knowledge graph, and so on.
+In [AI](#AI-Artificial-Intelligence), embeddings refer to the practice of mapping data with a defined vocabulary in high dimensional space to vectors of real numbers in a lower dimensional space. An embedding can represent words, word phrases, sentences, paragraphs, images, sound, entities/relations in a knowledge graph, and so on.
 
 \[**Used by:** A-6677\]
 
@@ -47,7 +47,7 @@ In mathematics an embedding is an instance of a mathematical structure contained
 
 ## GeoAI (Geographic Artificial Intelligence)
 
-GeoAI is the combination of geography and artificial intelligence. GeoAI leverages the state-of-the-art in [AI (Artificial Intelligence)](#AI-Artificial-Intelligence) to address geospatial challenges, such as weather prediction, land use and land cover mapping, and traffic forecasting. GeoAI also contributes to the [AI (Artificial Intelligence)](#AI-Artificial-Intelligence) community by introducing spatiotemporal knowledge into methods design. One example is using spatially-explicit reinforcement learning to summarize places in a knowledge graph.  
+GeoAI is the combination of geography and artificial intelligence (AI). GeoAI leverages the state-of-the-art in [AI](#AI-Artificial-Intelligence) to address geospatial challenges, such as weather prediction, land use and land cover mapping, and traffic forecasting. GeoAI also contributes to the [Artificial Intelligence](#AI-Artificial-Intelligence) community by introducing spatiotemporal knowledge into methods design. One example is using spatially-explicit reinforcement learning to summarize places in a knowledge graph.  
 
 \[**Used by:** A-6677\]
 
@@ -56,7 +56,7 @@ GeoAI is the combination of geography and artificial intelligence. GeoAI leverag
 
 ## Geospatial Interoperability
 
-Interoperability measures the ability of different computer systems to communicate and access, exchange, integrate, and (re)use data and other resources autonomously without human intervention. Geospatial Interoperability deals with the interoperability among geospatial systems, and software in particular. Standardization is a typical means to achieve interoperability. For instance, International Standardization Organization (ISO) has defined a series of metadata standards (ISO 19115, ISO 19139) to standardize the organization of metadata. And the Open Geospatial Consortium (OGC) has developed a wide range of web service specifications to define a standardized interface for the representation, retrieval and parsing of geospatial data of various types.
+Interoperability measures the ability of different computer systems to communicate and access, exchange, integrate, and (re)use data and other resources autonomously without human intervention. Geospatial Interoperability deals with the interoperability among geospatial systems, and software in particular. Standardization is a typical means to achieve interoperability. For instance, the International Standardization Organization (ISO) has defined a series of metadata standards (ISO 19115, ISO 19139) to standardize the organization of metadata. And the Open Geospatial Consortium (OGC) has developed a wide range of web service specifications to define a standardized interface for the representation, retrieval and parsing of geospatial data of various types.
 
 \[**Used by:** A-6677\]
 
@@ -83,7 +83,7 @@ A combination of technologies, specifications, and data cultures for densely int
 
 ## Knowledge Graph Schema
 
-A Knowledge Graph Schema informs the structure of a knowledge graph. It can be expressed, for instance, by means of an [ontology](#Ontology) using  [OWL](#OWL-Web-Ontology-Language), or the SHACL Shapes Constraint Language, both of which are W3C standards. Knowledge Graph Schemas can often be understood to be knowledge graphs of classes (types) and their relationships. 
+A Knowledge Graph Schema informs the structure of a [knowledge graph](#Knowledge-Graph-KG). It can be expressed, for instance, by means of an [ontology](#Ontology) using  [OWL](#OWL-Web-Ontology-Language), or the SHACL Shapes Constraint Language, both of which are W3C standards. Knowledge Graph Schemas can often be understood to be knowledge graphs of classes (types) and their relationships. 
 
 \[**Used by:** A-6677\]
 
@@ -92,7 +92,7 @@ A Knowledge Graph Schema informs the structure of a knowledge graph. It can be e
 
 ## Link Prediction
 
-Link Prediction is important for ensuring knowledge graph completeness, since no knowledge graph is ever complete. In this project, link prediction is to predict whether there are missing labeled edges in knowledge graphs. It typically includes entity prediction, which is to predict the subject given the relation and the object, or to predict the object given the subject and the relation. It can also involve relation prediction, which aims to predict possible relations between two entities. [Knowledge graph embedding](#Embedding) techniques are a widely studied to approach to Link Prediction. 
+Link Prediction is a field of research aimed at identifying missing relationships (labeled edges) in [knowledge graphs](#Knowledge-Graph-KG). Link Prediction typically includes entity prediction, which is to predict the subject given the relation and the object, or to predict the object given the subject and the relation. It can also involve relation prediction, which aims to predict possible relations between two entities. [Knowledge graph embedding](#Embedding) techniques are a widely studied approach to Link Prediction. 
 
 \[**Used by:** A-6677\]
 
@@ -128,7 +128,7 @@ It may make sense to distinguish between *open-knowledge* networks and open *kno
 
 ## OWL (Web Ontology Language)
 
-A shared domain model usually expressed using the W3C standard [Web Ontology Language (OWL)](#OWL-Web-Ontology-Language). [OWL](#OWL-Web-Ontology-Language) can be serialized in [RDF](#RDF-Resource-Description-Framework), that is, an [OWL](#OWL-Web-Ontology-Language) document that can be understood to be a [knowledge graph](#Knowledge-Graph-KG) of classes (types) and their relationships. Ontologies can constitute [knowledge graph schemas](#Knowledge-Graph-Schema). [OWL](#OWL-Web-Ontology-Language) is based on description logic, which essentially is a decidable sublanguage of first-order predicate logic. As such, [OWL](#OWL-Web-Ontology-Language) allows for logical (deductive) [reasoning](#Reasoning), and an [OWL](#OWL-Web-Ontology-Language) document together with an ([RDF](#RDF-Resource-Description-Framework)) knowledge graph constitute a knowledge base in the sense used in the subfield of [Artificial Intelligence](#AI-Artificial-Intelligence) known as "Knowledge Representation and Reasoning". For standards documents, see  https://www.w3.org/TR/2012/REC-owl2-primer-20121211/
+A W3C standard for expressing [ontologies](#Ontology), in particular as [knowledge graph schemas](#Knowledge-Graph-Schema). [OWL](#OWL-Web-Ontology-Language) can be serialized in [RDF](#RDF-Resource-Description-Framework), that is, an [OWL](#OWL-Web-Ontology-Language) document that can be understood to be a [knowledge graph](#Knowledge-Graph-KG) of classes (types) and their relationships. [OWL](#OWL-Web-Ontology-Language) is based on description logic, which essentially is a decidable sublanguage of first-order predicate logic. As such, [OWL](#OWL-Web-Ontology-Language) allows for logical (deductive) [reasoning](#Reasoning), and an [OWL](#OWL-Web-Ontology-Language) document together with an ([RDF](#RDF-Resource-Description-Framework)) knowledge graph constitute a knowledge base in the sense used in the subfield of [Artificial Intelligence](#AI-Artificial-Intelligence) known as "Knowledge Representation and Reasoning". For standards documents, see  https://www.w3.org/TR/2012/REC-owl2-primer-20121211/
 
 \[**Used by:** A-6677\]
 
@@ -138,7 +138,7 @@ A shared domain model usually expressed using the W3C standard [Web Ontology Lan
 ## Question Answering
 
 In the field of [natural language processing], Question Answering (QA) refers to the methods, processes, and systems which allow users to ask questions in the form of natural language sentences and receive one or more answers, often in the form of
-sentences. Almost all QA systems answer a given question based on their internal [knowledge bases] (KB). According to the nature of such knowledge bases, current QA research can be classified into three categories: unstructured data-based QA (e.g. QA systems based on unstructured text), semi-structure table-based QA (e.g. QA systems based on tables from Wikipedia pages without any schema information), and structured-KB-based QA (so-called [semantic parsing]). In the field of [Semantic Web](#Semantic-Web), question answering over [knowledge graphs](#Knowledge-Graph-KG) is considered as one type of structured-KB-based QA which aims at translating a natural language question into a machine understandable program such as SPARQL and Lambda calculus.
+sentences. Almost all QA systems answer a given question based on their internal [knowledge bases] (KB). According to the nature of such knowledge bases, current QA research can be classified into three categories: unstructured data-based QA (e.g. QA systems based on unstructured text), semi-structure table-based QA (e.g. QA systems based on tables from Wikipedia pages without any schema information), and structured-KB-based QA (so-called [semantic parsing]). In the field of [Semantic Web](#Semantic-Web), question answering over [knowledge graphs](#Knowledge-Graph-KG) is considered as one type of structured-KB-based QA which aims at translating a natural language question into a machine understandable program.
 
 \[**Used by:** A-6677\]
 
@@ -147,7 +147,7 @@ sentences. Almost all QA systems answer a given question based on their internal
 
 ## RDF (Resource Description Framework)
 
-Resource Description Framework is a W3C standard (2004; revised 2012) for expressing [linked data](#Linked-Data) and [knowledge graphs](#Knowledge-Graph-KG). A corresponding [knowledge graph schema](#Knowledge-Graph-Schema) can be expressed as an [ontology](#Ontology) in [OWL](#OWL-Web-Ontology-Language). A [knowledge graph](#Knowledge-Graph-KG) is expressed in RDF as a set of RDF triples, that is, of node-edge-node relations in the [knowledge graph](#Knowledge-Graph-KG). Nodes and edges are identified using IRIs. As part of the RDF standard, RDF Schema provides vocabulary for node and edge types (called classes) and simple relationships between them. For more complex relationships, the Web Ontology Language [OWL](#OWL-Web-Ontology-Language) can be used. For standards documents, see https://www.w3.org/TR/rdf11-primer/
+The Resource Description Framework is a W3C standard (2004; revised 2012) for expressing [linked data](#Linked-Data) and [knowledge graphs](#Knowledge-Graph-KG). A corresponding [knowledge graph schema](#Knowledge-Graph-Schema) can be expressed as an [ontology](#Ontology) in [OWL](#OWL-Web-Ontology-Language). A [knowledge graph](#Knowledge-Graph-KG) is expressed in RDF as a set of RDF triples, that is, of node-edge-node relations in the [knowledge graph](#Knowledge-Graph-KG). Nodes and edges are identified using IRIs. As part of the RDF standard, RDF Schema provides vocabulary for node and edge types (called classes) and simple relationships between them. For more complex relationships, the Web Ontology Language [OWL](#OWL-Web-Ontology-Language) can be used. For standards documents, see https://www.w3.org/TR/rdf11-primer/
 
 \[**Used by:** A-6677\]
 
@@ -156,7 +156,7 @@ Resource Description Framework is a W3C standard (2004; revised 2012) for expres
 
 ## Reasoning
 
-Computational reasoning can in many forms, and the term is often used ambiguously. The W3C [Semantic Web](#Semantic-Web) standards [RDF](#RDF-Resource-Description-Framework) and [OWL](#OWL-Web-Ontology-Language) natively support *deductive* reasoning, which is based on formal logic and logical consequences which can be derived from given facts, rules, and/or other statements made in formal logic. For instance, given the statement "*Black Beauty* is a horse", and the statement "every horse is a mammal", we can arrive at the logical consequence that "*Black Beauty* is a mammal". The example just given can be expressed in [RDF](#RDF-Resource-Description-Framework), and the [RDF](#RDF-Resource-Description-Framework) standard prescribes this kind of reasoning. The Web Ontology Language [OWL](#OWL-Web-Ontology-Language) can be used to express more complex relationships that can then also be used for deductive reasoning.
+Computational reasoning can come in many forms, and the term is often used ambiguously. The W3C [Semantic Web](#Semantic-Web) standards [RDF](#RDF-Resource-Description-Framework) and [OWL](#OWL-Web-Ontology-Language) natively support *deductive* reasoning, which is based on formal logic and logical consequences which can be derived from given facts, rules, and/or other statements made in formal logic. For instance, given the statement "*Black Beauty* is a horse", and the statement "every horse is a mammal", we can arrive at the logical consequence that "*Black Beauty* is a mammal". The example just given can be expressed in [RDF](#RDF-Resource-Description-Framework), and the [RDF](#RDF-Resource-Description-Framework) standard prescribes this kind of reasoning. The Web Ontology Language [OWL](#OWL-Web-Ontology-Language) can be used to express more complex relationships that can then also be used for deductive reasoning. Deductive reasoning is a prominent method in some subfields of [Artificial Intelligence)](#AI-Artificial-Intelligence), in particular in Knowledge Representation and Reasoning.
 
 \[**Used by:** A-6677\]
 
