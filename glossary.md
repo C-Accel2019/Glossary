@@ -8,6 +8,7 @@ _This living document serves as a community and consensus-driven glossary of ter
 
 ### Index ###
 1. [AI (Artificial Intelligence)](#AI-Artificial-Intelligence)
+1. [Coreference Resolution](#Coreference-Resolution)
 1. [Embedding](#Embedding)
 1. [GeoAI (Geographic Artificial Intelligence)](#GeoAI-Geographic-Artificial-Intelligence)
 1. [Geospatial Interoperability](#Geospatial-Interoperability)
@@ -17,6 +18,7 @@ _This living document serves as a community and consensus-driven glossary of ter
 1. [Link Prediction](#Link-Prediction)
 1. [Linked Data](#Linked-Data)
 1. [Ontology](#Ontology)
+1. [Ontology Alignment](#Ontology-Alignment)
 1. [Open Knowledge Network (OKN)](#Open-Knowledge-Network-OKN)
 1. [OWL (Web Ontology Language)](#OWL-Web-Ontology-Language)
 1. [Question Answering](#Question-Answering)
@@ -25,8 +27,7 @@ _This living document serves as a community and consensus-driven glossary of ter
 1. [Representation Learning](#Representation-Learning)
 1. [Semantic Interoperability](#Semantic-Interoperability)
 1. [Semantic Web](#Semantic-Web)
-1. [Ontology Alignment](#Ontology-Alignment)
-1. [Coreference Resolution](#Coreference-Resolution)
+
 
 
 ## AI (Artificial Intelligence)
@@ -37,6 +38,14 @@ In contrast to natural intelligence, which is an emergent property of evolved or
 
 [Back to Index](#Index)
 
+
+## Coreference Resolution
+
+Coreference resolution or instance matching is generally a task of finding all expressions that refer to the same entity in a text. More specifically, in semantic web domain, given two knowledge graphs G1 and G2 as input, instance matching is defined as the process of comparing an instance i1 in G1 and an instance i2 in G2 based on the similarity measures. Usually, the higher is the similarity between two instances, the higher is the probability that they actually refer to the same real-world entity.
+
+\[**Used by:** A-6677\]
+
+[Back to Index](#Index)
 
 ## Embedding
 
@@ -118,6 +127,15 @@ A shared domain model usually expressed using the W3C standard [Web Ontology Lan
 
 [Back to Index](#Index)
 
+## Ontology Alignment
+
+Ontology[Ontology](#Ontology) matching or Knowledge graph Schema[Knowledge Graph Schema](#Knowledge-Graph-Schema) matching aims at finding correspondences between semantically related entities of different ontologies. These correspondences may stand for equivalence as well as other relations, such as subsumption or disjointness, between ontology entities. Ontology entities, in turn, usually denote the named entities of ontologies, such as classes, properties or individuals. However, these entities may also be more complex expressions, such as formulas, concept definitions, queries or term building expressions. Ontology matching results, called alignments, can thus express with various degrees of precision the relations between the ontologies under consideration. Therefore, ontology alignment can be used for various tasks, such as ontology merging, query answering, data translation or for browsing the semantic web. For example, the library can take advantage of alignments for automatically ordering a book and the seller can use them for checking the availability of a reference by the library. Matching ontologies enables the knowledge and data expressed in the matched ontologies to interoperate. It is thus of utmost importance for the applications whose interoperability is jeopardised by heterogeneous ontologies.
+
+\[**Used by:** A-6677\]
+
+[Back to Index](#Index)
+
+
 
 ## Open Knowledge Network (OKN)
 
@@ -191,19 +209,5 @@ A field of research concerned with developing methods and tools for efficient da
 
 [Back to Index](#Index)
 
-## Ontology Alignment
 
-Ontology[Ontology](#Ontology) matching or Knowledge graph Schema[Knowledge Graph Schema](#Knowledge-Graph-Schema) matching aims at finding correspondences between semantically related entities of different ontologies. These correspondences may stand for equivalence as well as other relations, such as subsumption or disjointness, between ontology entities. Ontology entities, in turn, usually denote the named entities of ontologies, such as classes, properties or individuals. However, these entities may also be more complex expressions, such as formulas, concept definitions, queries or term building expressions. Ontology matching results, called alignments, can thus express with various degrees of precision the relations between the ontologies under consideration. Therefore, ontology alignment can be used for various tasks, such as ontology merging, query answering, data translation or for browsing the semantic web. For example, the library can take advantage of alignments for automatically ordering a book and the seller can use them for checking the availability of a reference by the library. Matching ontologies enables the knowledge and data expressed in the matched ontologies to interoperate. It is thus of utmost importance for the applications whose interoperability is jeopardised by heterogeneous ontologies.
-
-\[**Used by:** A-6677\]
-
-[Back to Index](#Index)
-
-## Coreference Resolution
-
-Coreference resolution or instance matching is generally a task of finding all expressions that refer to the same entity in a text. More specifically, in semantic web domain, given two knowledge graphs G1 and G2 as input, instance matching is defined as the process of comparing an instance i1 in G1 and an instance i2 in G2 based on the similarity measures. Usually, the higher is the similarity between two instances, the higher is the probability that they actually refer to the same real-world entity.
-
-\[**Used by:** A-6677\]
-
-[Back to Index](#Index)
 
