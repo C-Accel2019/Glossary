@@ -11,7 +11,7 @@ _This living document serves as a community and consensus-driven glossary of ter
 1. [Coreference Resolution](#Coreference-Resolution)
 1. [Embedding](#Embedding)
 1. [GeoAI (Geographic Artificial Intelligence)](#GeoAI-Geographic-Artificial-Intelligence)
-1. [GIR (Geographic Information Retrieval)](#Geographic-Information-Retrieval)
+1. [GIR (Geographic Information Retrieval)](#GIR-Geographic-Information-Retrieval)
 1. [Geospatial Interoperability](#Geospatial-Interoperability)
 1. [Knowledge](#Knowledge)
 1. [Knowledge Graph (KG)](#Knowledge-Graph-KG)
