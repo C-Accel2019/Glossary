@@ -11,6 +11,7 @@ _This living document serves as a community and consensus-driven glossary of ter
 1. [Coreference Resolution](#Coreference-Resolution)
 1. [Embedding](#Embedding)
 1. [GeoAI (Geographic Artificial Intelligence)](#GeoAI-Geographic-Artificial-Intelligence)
+1. [GIR (Geographic Information Retrieval)](#GIR-Geographic-Information-Retrieval)
 1. [Geospatial Interoperability](#Geospatial-Interoperability)
 1. [Knowledge](#Knowledge)
 1. [Knowledge Graph (KG)](#Knowledge-Graph-KG)
@@ -64,6 +65,14 @@ GeoAI is the combination of geography and artificial intelligence (AI). GeoAI le
 
 [Back to Index](#Index)
 
+
+## GIR (Geographic Information Retrieval)
+
+Geographic information retrieval or geographical information retrieval is an extension of information retrieval with geographic information. GIR aims at solving textual queries that are best approached from a geographical perspective, such as "How many earthquakes occurred from January to March last year in California?". It is common in GIR to separate the text indexing and analysis from the geographic indexing. Semantic similarity and word-sense disambiguation are important components of GIR. To identify place names, GIR often relies on gazetteers, a geographical dictionary or directory used in conjunction with a map or atlas.  
+
+\[**Used by:** A-6677\]
+
+[Back to Index](#Index)
 
 ## Geospatial Interoperability
 
