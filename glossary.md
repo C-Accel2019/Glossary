@@ -219,4 +219,55 @@ A field of research concerned with developing methods and tools for efficient da
 [Back to Index](#Index)
 
 
+## Decision Making
+
+Decision making can be regarded as an outcome of mental processes (cognitive process) leading to the selection of a course of action among several alternatives. The output can be an action or an opinion of choice. From a cognitive perspective, the decision making process is a continuous process integrated in the interaction with the environment. From a normative perspective, the analysis of individual decisions is concerned with the logic of decision making and rationality and the invariant choice it leads to. At another level, it might be regarded as a problem solving activity which is terminated when a satisfactory solution is found. Logical decision making is an important part of all science-based professions, where specialists apply their knowledge in a given area to making informed decisions.
+
+Source Of Description: http://en.wikipedia.org/wiki/Decision-making (External Link) 
+
+\[**Used by:** A-7908\]
+
+[Back to Index](#Index)
+
+## Decision Making
+
+Spatial decision making is a decision making process where the decision problem structure and context have a prominent spatial or spatio-temporal component.
+
+Source Of Description: http://en.wikipedia.org/wiki/Decision-making (External Link) 
+
+\[**Used by:** A-7908\]
+
+[Back to Index](#Index)
+
+
+## Spatial Decision Support
+
+Spatial decision support is the computational or informational assistance for making better informed decisions about problems with a geographic or spatial component. This support assists with the development, evaluation and selection of proper policies, plans, scenarios, projects, interventions, or solution strategies. Spatial decision making faces various decision complexities such as:
+
+- Spatial nature and temporal development of phenomena and processes;
+- Complex multi-dimensional and heterogeneous data describing decision situations; 
+- Large or extremely large data sets that include data in numerical, map, image, text, and other forms; 
+- Large number of available alternatives or a need to generate decision alternatives "on the fly" according to the changing situation; 
+- Multiple participants with different and often conflicting interests; 
+- Multiple categories of knowledge involved, including expert knowledge and layman knowledge. 
+
+Source of Description: Rob Raskin, http://geoanalytics.net/VisA-SDS-2006/ 
+
+\[**Used by:** A-7908\]
+
+[Back to Index](#Index)
+
+
+## Spatial Decision Support Systems (SDSS)
+
+SDSS combine spatial and non-spatial data, the analysis and visualization functions of Geographic Information Systems (GIS), and decision models in specific domains, to compute the characteristics of problem solutions, facilitate the evaluation of solution alternatives and the assessment of their trade-offs.
+
+Source: P. Jankowski, Spatial decision support systems, in: K.K. Kemp (Ed.), Encyclopedia of Geographic Information Science, SAGE Publications, Inc., Thousand Oaks, California, 2008, http://sk.sagepub.com/reference/geoinfoscience.
+
+\[**Used by:** A-7908\]
+
+[Back to Index](#Index)
+
+
+
 
