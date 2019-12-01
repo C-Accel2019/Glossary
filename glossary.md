@@ -9,7 +9,7 @@ _This living document serves as a community and consensus-driven glossary of ter
 ### Index ###
 1. [AI (Artificial Intelligence)](#AI-Artificial-Intelligence)
 1. [Coreference Resolution](#Coreference-Resolution)
-1. [Decision Making] (#Decision-Making)
+1. [Decision Making](#Decision-Making)
 1. [Embedding](#Embedding)
 1. [GeoAI (Geographic Artificial Intelligence)](#GeoAI-Geographic-Artificial-Intelligence)
 1. [GIR (Geographic Information Retrieval)](#GIR-Geographic-Information-Retrieval)
@@ -251,9 +251,9 @@ Source of Description: Rob Raskin, http://geoanalytics.net/VisA-SDS-2006/
 [Back to Index](#Index)
 
 
-## Spatial Decision Support Systems (SDSS)
+## Spatial Decision Support Systems
 
-SDSS combine spatial and non-spatial data, the analysis and visualization functions of Geographic Information Systems (GIS), and decision models in specific domains, to compute the characteristics of problem solutions, facilitate the evaluation of solution alternatives and the assessment of their trade-offs.
+Spatial Decision Support Systems (SDSS) combine spatial and non-spatial data, the analysis and visualization functions of Geographic Information Systems (GIS), and decision models in specific domains, to compute the characteristics of problem solutions, facilitate the evaluation of solution alternatives and the assessment of their trade-offs.
 
 Source: P. Jankowski, Spatial decision support systems, in: K.K. Kemp (Ed.), Encyclopedia of Geographic Information Science, SAGE Publications, Inc., Thousand Oaks, California, 2008, http://sk.sagepub.com/reference/geoinfoscience.
 
