@@ -9,6 +9,7 @@ _This living document serves as a community and consensus-driven glossary of ter
 ### Index ###
 1. [AI (Artificial Intelligence)](#AI-Artificial-Intelligence)
 1. [Coreference Resolution](#Coreference-Resolution)
+1. [Decision Making] (#Decision-Making)
 1. [Embedding](#Embedding)
 1. [GeoAI (Geographic Artificial Intelligence)](#GeoAI-Geographic-Artificial-Intelligence)
 1. [GIR (Geographic Information Retrieval)](#GIR-Geographic-Information-Retrieval)
@@ -28,6 +29,8 @@ _This living document serves as a community and consensus-driven glossary of ter
 1. [Representation Learning](#Representation-Learning)
 1. [Semantic Interoperability](#Semantic-Interoperability)
 1. [Semantic Web](#Semantic-Web)
+1. [Spatial Decision Support](#Spatial-Decision-Support)
+1. [Spatial Decision Support Systems (SDSS)](#Spatial-Decision-Support-Systems)
 
 
 
@@ -45,6 +48,16 @@ In contrast to natural intelligence, which is an emergent property of evolved or
 Coreference resolution or instance matching in general is the task of finding all expressions that refer to the same entity in a text. More specifically, in the [Semantic Web](#Semantic-Web) domain, given two [knowledge graphs](#Knowledge-Graph-KG) G1 and G2 as input, instance matching is defined as the process of comparing instance i1 in G1 and instance i2 in G2 based on some similarity measure in order to assess whether i1 and i2 are actually one and the same entity. Usually, the higher the similarity between two instances, the higher is the probability that they actually refer to the same real-world entity.
 
 \[**Used by:** A-6677\]
+
+[Back to Index](#Index)
+
+## Decision Making
+
+Decision making can be regarded as an outcome of mental processes (cognitive process) leading to the selection of a course of action among several alternatives. The output can be an action or an opinion of choice. From a cognitive perspective, the decision making process is a continuous process integrated in the interaction with the environment. From a normative perspective, the analysis of individual decisions is concerned with the logic of decision making and rationality and the invariant choice it leads to. At another level, it might be regarded as a problem solving activity which is terminated when a satisfactory solution is found. Logical decision making is an important part of all science-based professions, where specialists apply their knowledge in a given area to making informed decisions.
+
+Source Of Description: http://en.wikipedia.org/wiki/Decision-making (External Link) 
+
+\[**Used by:** A-7908\]
 
 [Back to Index](#Index)
 
@@ -218,26 +231,6 @@ A field of research concerned with developing methods and tools for efficient da
 
 [Back to Index](#Index)
 
-
-## Decision Making
-
-Decision making can be regarded as an outcome of mental processes (cognitive process) leading to the selection of a course of action among several alternatives. The output can be an action or an opinion of choice. From a cognitive perspective, the decision making process is a continuous process integrated in the interaction with the environment. From a normative perspective, the analysis of individual decisions is concerned with the logic of decision making and rationality and the invariant choice it leads to. At another level, it might be regarded as a problem solving activity which is terminated when a satisfactory solution is found. Logical decision making is an important part of all science-based professions, where specialists apply their knowledge in a given area to making informed decisions.
-
-Source Of Description: http://en.wikipedia.org/wiki/Decision-making (External Link) 
-
-\[**Used by:** A-7908\]
-
-[Back to Index](#Index)
-
-## Decision Making
-
-Spatial decision making is a decision making process where the decision problem structure and context have a prominent spatial or spatio-temporal component.
-
-Source Of Description: http://en.wikipedia.org/wiki/Decision-making (External Link) 
-
-\[**Used by:** A-7908\]
-
-[Back to Index](#Index)
 
 
 ## Spatial Decision Support
