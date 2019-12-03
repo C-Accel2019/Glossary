@@ -31,6 +31,7 @@ _This living document serves as a community and consensus-driven glossary of ter
 1. [Semantic Web](#Semantic-Web)
 1. [Spatial Decision Support](#Spatial-Decision-Support)
 1. [Spatial Decision Support Systems (SDSS)](#Spatial-Decision-Support-Systems)
+1. [FAIR (Findable, Accessible, Interoperable, and Reusable) Data Principles](#FAIR (Findable, Accessible, Interoperable, and Reusable) Data Principles)
 
 
 
@@ -262,6 +263,18 @@ Source: P. Jankowski, Spatial decision support systems, in: K.K. Kemp (Ed.), Enc
 URI: http://sdsportal.sdsconsortium.org/ontology/?n=SDSSAbout:SDSS
 
 \[**Used by:** A-7908\]
+
+[Back to Index](#Index)
+
+## FAIR (Findable, Accessible, Interoperable, and Reusable) Data Principles
+
+FAIR is a set of guiding principles to make data Findable, Accessible, Interoperable, and Reusable.  The term FAIR was launched at a [Lorentz workshop in 2014](https://www.lorentzcenter.nl/lc/web/2014/602/info.php3?wsid=602), which produced a set of principles that were [published in 2016](https://www.nature.com/articles/sdata201618).
+
+These include 14 principles and 15 metrics meant to quantify the readiness of data in terms of FAIR. 
+
+URI: https://www.force11.org/group/fairgroup/fairprinciples)
+
+\[**Used by:** A-7152\]
 
 [Back to Index](#Index)
 
