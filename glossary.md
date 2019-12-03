@@ -246,6 +246,8 @@ Spatial decision support is the computational or informational assistance for ma
 
 Source of Description: Rob Raskin, http://geoanalytics.net/VisA-SDS-2006/ 
 
+URI: http://sdsportal.sdsconsortium.org/ontology/?n=SDSSAbout:SDS
+
 \[**Used by:** A-7908\]
 
 [Back to Index](#Index)
@@ -256,6 +258,8 @@ Source of Description: Rob Raskin, http://geoanalytics.net/VisA-SDS-2006/
 Spatial Decision Support Systems (SDSS) combine spatial and non-spatial data, the analysis and visualization functions of Geographic Information Systems (GIS), and decision models in specific domains, to compute the characteristics of problem solutions, facilitate the evaluation of solution alternatives and the assessment of their trade-offs.
 
 Source: P. Jankowski, Spatial decision support systems, in: K.K. Kemp (Ed.), Encyclopedia of Geographic Information Science, SAGE Publications, Inc., Thousand Oaks, California, 2008, http://sk.sagepub.com/reference/geoinfoscience.
+
+URI: http://sdsportal.sdsconsortium.org/ontology/?n=SDSSAbout:SDSS
 
 \[**Used by:** A-7908\]
 
