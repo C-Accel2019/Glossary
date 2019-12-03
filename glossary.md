@@ -31,6 +31,12 @@ _This living document serves as a community and consensus-driven glossary of ter
 1. [Semantic Web](#Semantic-Web)
 1. [Spatial Decision Support](#Spatial-Decision-Support)
 1. [Spatial Decision Support Systems (SDSS)](#Spatial-Decision-Support-Systems)
+1. [Geoparsing](#Geoparsing)
+1. [Named-Entity Recognition](#Named-Entity-Recognition)
+1. [Natural Language Processing](#Natural-Language-Processing)
+1. [Public Health Informatics](#Public-Health-Informatics)
+1. [Knowledge Extraction](#Knowledge-Extraction)
+
 
 
 
@@ -263,8 +269,50 @@ URI: http://sdsportal.sdsconsortium.org/ontology/?n=SDSSAbout:SDSS
 
 \[**Used by:** A-7908\]
 
+
+## Geoparsing
+
+Geoparsing is a special toponym resolution process of converting free-text descriptions of places (such as "twenty miles northeast of Jalalabad") into unambiguous geographic identifiers, such as geographic coordinates expressed as latitude-longitude.
+
+Source: https://en.wikipedia.org/wiki/Toponym_resolution
+
+\[**Used by:** A-7136\]
+
 [Back to Index](#Index)
 
+## Named-Entity Recognition
+Named-entity recognition (NER) (also known as entity identification, entity chunking and entity extraction) is a subtask of information extraction that seeks to locate and classify named entity mentions in unstructured text into pre-defined categories such as the person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.
+ 
+Source: https://en.wikipedia.org/wiki/Named-entity_recognition
 
+\[**Used by:** A-7136\]
 
+[Back to Index](#Index)
 
+## Natural Language Processing
+Natural language processing (NLP) is a subfield of linguistics, computer science, information engineering, and artificial intelligence concerned with the interactions between computers and human (natural) languages, in particular how to program computers to process and analyze large amounts of natural language data.
+ 
+Source: https://en.wikipedia.org/wiki/Natural_language_processing
+
+\[**Used by:** A-7136\]
+
+[Back to Index](#Index)
+
+## Public Health Informatics
+Public health informatics: the systematic application of information and computer science and technology to public health practice, research, and learning. It is one of the subdomains of health informatics.
+ 
+Source: https://en.wikipedia.org/wiki/Public_health_informatics
+
+\[**Used by:** A-7136\]
+
+[Back to Index](#Index)
+
+## Knowledge Extraction
+Knowledge extraction is the creation of knowledge from structured (relational databases, XML) and unstructured (text, documents, images) sources. The resulting knowledge needs to be in a machine-readable and machine-interpretable format and must represent knowledge in a manner that facilitates inferencing. 
+It requires either the reuse of existing formal knowledge (reusing identifiers or ontologies) or the generation of a schema based on the source data.
+ 
+Source: https://en.wikipedia.org/wiki/Knowledge_extraction
+
+\[**Used by:** A-7136\]
+
+[Back to Index](#Index)
