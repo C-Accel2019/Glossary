@@ -8,8 +8,12 @@ _This living document serves as a community and consensus-driven glossary of ter
 
 ### Index ###
 1. [AI (Artificial Intelligence)](#AI-Artificial-Intelligence)
+1. [Coreference Resolution](#Coreference-Resolution)
+1. [Decision Making](#Decision-Making)
 1. [Embedding](#Embedding)
+1. [FAIR](#FAIR)
 1. [GeoAI (Geographic Artificial Intelligence)](#GeoAI-Geographic-Artificial-Intelligence)
+1. [GIR (Geographic Information Retrieval)](#GIR-Geographic-Information-Retrieval)
 1. [Geospatial Interoperability](#Geospatial-Interoperability)
 1. [Knowledge](#Knowledge)
 1. [Knowledge Graph (KG)](#Knowledge-Graph-KG)
@@ -17,6 +21,7 @@ _This living document serves as a community and consensus-driven glossary of ter
 1. [Link Prediction](#Link-Prediction)
 1. [Linked Data](#Linked-Data)
 1. [Ontology](#Ontology)
+1. [Ontology Alignment](#Ontology-Alignment)
 1. [Open Knowledge Network (OKN)](#Open-Knowledge-Network-OKN)
 1. [OWL (Web Ontology Language)](#OWL-Web-Ontology-Language)
 1. [Question Answering](#Question-Answering)
@@ -25,8 +30,16 @@ _This living document serves as a community and consensus-driven glossary of ter
 1. [Representation Learning](#Representation-Learning)
 1. [Semantic Interoperability](#Semantic-Interoperability)
 1. [Semantic Web](#Semantic-Web)
-1. [Ontology Alignment](#Ontology-Alignment)
-1. [Coreference Resolution](#Coreference-Resolution)
+1. [Spatial Decision Support](#Spatial-Decision-Support)
+1. [Spatial Decision Support Systems (SDSS)](#Spatial-Decision-Support-Systems)
+1. [Geoparsing](#Geoparsing)
+1. [Named-Entity Recognition](#Named-Entity-Recognition)
+1. [Natural Language Processing](#Natural-Language-Processing)
+1. [Public Health Informatics](#Public-Health-Informatics)
+1. [Knowledge Extraction](#Knowledge-Extraction)
+
+
+
 
 
 ## AI (Artificial Intelligence)
@@ -38,11 +51,41 @@ In contrast to natural intelligence, which is an emergent property of evolved or
 [Back to Index](#Index)
 
 
+## Coreference Resolution
+
+Coreference resolution or instance matching in general is the task of finding all expressions that refer to the same entity in a text. More specifically, in the [Semantic Web](#Semantic-Web) domain, given two [knowledge graphs](#Knowledge-Graph-KG) G1 and G2 as input, instance matching is defined as the process of comparing instance i1 in G1 and instance i2 in G2 based on some similarity measure in order to assess whether i1 and i2 are actually one and the same entity. Usually, the higher the similarity between two instances, the higher is the probability that they actually refer to the same real-world entity.
+
+\[**Used by:** A-6677\]
+
+[Back to Index](#Index)
+
+## Decision Making
+
+Decision making can be regarded as an outcome of mental processes (cognitive process) leading to the selection of a course of action among several alternatives. The output can be an action or an opinion of choice. From a cognitive perspective, the decision making process is a continuous process integrated in the interaction with the environment. From a normative perspective, the analysis of individual decisions is concerned with the logic of decision making and rationality and the invariant choice it leads to. At another level, it might be regarded as a problem solving activity which is terminated when a satisfactory solution is found. Logical decision making is an important part of all science-based professions, where specialists apply their knowledge in a given area to making informed decisions.
+
+Source Of Description: http://en.wikipedia.org/wiki/Decision-making (External Link) 
+
+\[**Used by:** A-7908\]
+
+[Back to Index](#Index)
+
 ## Embedding
 
 In [AI](#AI-Artificial-Intelligence), embeddings refer to the practice of mapping data with a defined vocabulary in high dimensional space to vectors of real numbers in a lower dimensional space. An embedding can represent words, word phrases, sentences, paragraphs, images, sound, entities/relations in a knowledge graph, and so on.
 
 \[**Used by:** A-6677\]
+
+[Back to Index](#Index)
+
+## FAIR (Findable, Accessible, Interoperable, and Reusable) Data Principles
+
+FAIR is a set of guiding principles to make data Findable, Accessible, Interoperable, and Reusable.  The term FAIR was launched at a [Lorentz workshop in 2014](https://www.lorentzcenter.nl/lc/web/2014/602/info.php3?wsid=602), which produced a set of principles that were [published in 2016](https://www.nature.com/articles/sdata201618).
+
+These include 14 principles and 15 metrics meant to quantify the readiness of data in terms of FAIR. 
+
+URI: https://www.force11.org/group/fairgroup/fairprinciples)
+
+\[**Used by:** A-7152\]
 
 [Back to Index](#Index)
 
@@ -55,6 +98,14 @@ GeoAI is the combination of geography and artificial intelligence (AI). GeoAI le
 
 [Back to Index](#Index)
 
+
+## GIR (Geographic Information Retrieval)
+
+Geographic information retrieval or geographical information retrieval is an extension of information retrieval with geographic information. GIR aims at solving textual queries that are best approached from a geographical perspective, such as "How many earthquakes occurred from January to March last year in California?". It is common in GIR to separate the text indexing and analysis from the geographic indexing. Semantic similarity and word-sense disambiguation are important components of GIR. To identify place names, GIR often relies on gazetteers, a geographical dictionary or directory used in conjunction with a map or atlas.  
+
+\[**Used by:** A-6677\]
+
+[Back to Index](#Index)
 
 ## Geospatial Interoperability
 
@@ -117,6 +168,15 @@ A shared domain model usually expressed using the W3C standard [Web Ontology Lan
 \[**Used by:** A-6677\]
 
 [Back to Index](#Index)
+
+## Ontology Alignment
+
+[Ontology](#Ontology) alignment (also called ontology matching or Knowledge graph Schema[Knowledge Graph Schema](#Knowledge-Graph-Schema) matching aims at finding correspondences between semantically related entities of different [ontologies](#Ontology). These correspondences may be equivalences between entities, but may also be other relations, such as subsumption or disjointness, between ontology entities. [Ontology](#Ontology) entities considered are usually the named entities in ontologies, such as classes, properties or individuals. However, these entities may also be more complex expressions, such as logical ontology axioms, concept definitions, queries or term building expressions. Ontology matching results, called alignments, can thus express with various degrees of precision the relations between the ontologies under consideration. Therefore, ontology alignment can be used for various tasks involving data integration, such as ontology merging, query answering, data translation or for browsing the [Semantic Web](#Semantic-Web). For example, a library can take advantage of alignments for automatically ordering a book and the seller can use them for checking the availability of a reference by the library. Matching ontologies enable the knowledge and data expressed in the matched ontologies to interoperate. It is thus of importance for applications which rely on integrated data.
+
+\[**Used by:** A-6677\]
+
+[Back to Index](#Index)
+
 
 
 ## Open Knowledge Network (OKN)
@@ -191,19 +251,86 @@ A field of research concerned with developing methods and tools for efficient da
 
 [Back to Index](#Index)
 
-## Ontology Alignment
 
 [Ontology](#Ontology) matching or [Knowledge Graph Schema](#Knowledge-Graph-Schema) matching aims at finding correspondences between semantically related entities of different ontologies. These correspondences may stand for equivalence as well as other relations, such as subsumption or disjointness, between ontology entities. Ontology entities, in turn, usually denote the named entities of ontologies, such as classes, properties or individuals. However, these entities may also be more complex expressions, such as formulas, concept definitions, queries or term building expressions. Ontology matching results, called alignments, can thus express with various degrees of precision the relations between the ontologies under consideration. Therefore, ontology alignment can be used for various tasks, such as ontology merging, query answering, data translation or for browsing the semantic web. For example, the library can take advantage of alignments for automatically ordering a book and the seller can use them for checking the availability of a reference by the library. Matching ontologies enables the knowledge and data expressed in the matched ontologies to interoperate. It is thus of utmost importance for the applications whose interoperability is jeopardised by heterogeneous ontologies.
 
-\[**Used by:** A-6677\]
+
+## Spatial Decision Support
+
+Spatial decision support is the computational or informational assistance for making better informed decisions about problems with a geographic or spatial component. This support assists with the development, evaluation and selection of proper policies, plans, scenarios, projects, interventions, or solution strategies. Spatial decision making faces various decision complexities such as:
+
+- Spatial nature and temporal development of phenomena and processes;
+- Complex multi-dimensional and heterogeneous data describing decision situations; 
+- Large or extremely large data sets that include data in numerical, map, image, text, and other forms; 
+- Large number of available alternatives or a need to generate decision alternatives "on the fly" according to the changing situation; 
+- Multiple participants with different and often conflicting interests; 
+- Multiple categories of knowledge involved, including expert knowledge and layman knowledge. 
+
+Source of Description: Rob Raskin, http://geoanalytics.net/VisA-SDS-2006/ 
+
+URI: http://sdsportal.sdsconsortium.org/ontology/?n=SDSSAbout:SDS
+
+\[**Used by:** A-7908\]
 
 [Back to Index](#Index)
 
-## Coreference Resolution
 
-Coreference resolution or instance matching is generally a task of finding all expressions that refer to the same entity in a text. More specifically, in semantic web domain, given two knowledge graphs G1 and G2 as input, instance matching is defined as the process of comparing an instance i1 in G1 and an instance i2 in G2 based on the similarity measures. Usually, the higher is the similarity between two instances, the higher is the probability that they actually refer to the same real-world entity.
+## Spatial Decision Support Systems
 
-\[**Used by:** A-6677\]
+Spatial Decision Support Systems (SDSS) combine spatial and non-spatial data, the analysis and visualization functions of Geographic Information Systems (GIS), and decision models in specific domains, to compute the characteristics of problem solutions, facilitate the evaluation of solution alternatives and the assessment of their trade-offs.
+
+Source: P. Jankowski, Spatial decision support systems, in: K.K. Kemp (Ed.), Encyclopedia of Geographic Information Science, SAGE Publications, Inc., Thousand Oaks, California, 2008, http://sk.sagepub.com/reference/geoinfoscience.
+
+URI: http://sdsportal.sdsconsortium.org/ontology/?n=SDSSAbout:SDSS
+
+\[**Used by:** A-7908\]
+
+
+## Geoparsing
+
+Geoparsing is a special toponym resolution process of converting free-text descriptions of places (such as "twenty miles northeast of Jalalabad") into unambiguous geographic identifiers, such as geographic coordinates expressed as latitude-longitude.
+
+Source: https://en.wikipedia.org/wiki/Toponym_resolution
+
+\[**Used by:** A-7136\]
+
+[Back to Index](#Index)
+
+## Named-Entity Recognition
+Named-entity recognition (NER) (also known as entity identification, entity chunking and entity extraction) is a subtask of information extraction that seeks to locate and classify named entity mentions in unstructured text into pre-defined categories such as the person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.
+ 
+Source: https://en.wikipedia.org/wiki/Named-entity_recognition
+
+\[**Used by:** A-7136\]
+
+[Back to Index](#Index)
+
+## Natural Language Processing
+Natural language processing (NLP) is a subfield of linguistics, computer science, information engineering, and artificial intelligence concerned with the interactions between computers and human (natural) languages, in particular how to program computers to process and analyze large amounts of natural language data.
+ 
+Source: https://en.wikipedia.org/wiki/Natural_language_processing
+
+\[**Used by:** A-7136\]
+
+[Back to Index](#Index)
+
+## Public Health Informatics
+Public health informatics: the systematic application of information and computer science and technology to public health practice, research, and learning. It is one of the subdomains of health informatics.
+ 
+Source: https://en.wikipedia.org/wiki/Public_health_informatics
+
+
+\[**Used by:** A-7136\]
+
+[Back to Index](#Index)
+
+## Knowledge Extraction
+Knowledge extraction is the creation of knowledge from structured (relational databases, XML) and unstructured (text, documents, images) sources. The resulting knowledge needs to be in a machine-readable and machine-interpretable format and must represent knowledge in a manner that facilitates inferencing. 
+It requires either the reuse of existing formal knowledge (reusing identifiers or ontologies) or the generation of a schema based on the source data.
+ 
+Source: https://en.wikipedia.org/wiki/Knowledge_extraction
+
+\[**Used by:** A-7136\}
 
 [Back to Index](#Index)
 
