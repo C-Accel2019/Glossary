@@ -13,17 +13,22 @@ _This living document serves as a community and consensus-driven glossary of ter
 1. [Embedding](#Embedding)
 1. [FAIR](#FAIR)
 1. [GeoAI (Geographic Artificial Intelligence)](#GeoAI-Geographic-Artificial-Intelligence)
+1. [Geoparsing](#Geoparsing)
 1. [GIR (Geographic Information Retrieval)](#GIR-Geographic-Information-Retrieval)
 1. [Geospatial Interoperability](#Geospatial-Interoperability)
 1. [Knowledge](#Knowledge)
+1. [Knowledge Extraction](#Knowledge-Extraction)
 1. [Knowledge Graph (KG)](#Knowledge-Graph-KG)
 1. [Knowledge Graph Schema](#Knowledge-Graph-Schema)
 1. [Link Prediction](#Link-Prediction)
 1. [Linked Data](#Linked-Data)
+1. [Named-Entity Recognition](#Named-Entity-Recognition)
+1. [Natural Language Processing](#Natural-Language-Processing)
 1. [Ontology](#Ontology)
 1. [Ontology Alignment](#Ontology-Alignment)
 1. [Open Knowledge Network (OKN)](#Open-Knowledge-Network-OKN)
 1. [OWL (Web Ontology Language)](#OWL-Web-Ontology-Language)
+1. [Public Health Informatics](#Public-Health-Informatics)
 1. [Question Answering](#Question-Answering)
 1. [RDF (Resource Description Framework)](#RDF-Resource-Description-Framework)
 1. [Reasoning](#Reasoning)
@@ -99,6 +104,15 @@ GeoAI is the combination of geography and artificial intelligence (AI). GeoAI le
 [Back to Index](#Index)
 
 
+## Geoparsing
+
+Geoparsing is a special toponym resolution process of converting free-text descriptions of places (such as "twenty miles northeast of Jalalabad") into unambiguous geographic identifiers, such as geographic coordinates expressed as latitude-longitude.
+
+
+\[**Used by:** A-7136\]
+
+[Back to Index](#Index)
+
 ## GIR (Geographic Information Retrieval)
 
 Geographic information retrieval or geographical information retrieval is an extension of information retrieval with geographic information. GIR aims at solving textual queries that are best approached from a geographical perspective, such as "How many earthquakes occurred from January to March last year in California?". It is common in GIR to separate the text indexing and analysis from the geographic indexing. Semantic similarity and word-sense disambiguation are important components of GIR. To identify place names, GIR often relies on gazetteers, a geographical dictionary or directory used in conjunction with a map or atlas.  
@@ -121,6 +135,13 @@ Interoperability measures the ability of different computer systems to communica
 A term typically referring to the second concept from the top of a DIKW (Data, Information, Knowledge, Wisdom) model pyramid. The term is used to indicate internalized, synthesized, organized, or familiar information that can readily be applied, for instance, in domain transfer tasks, and used to put new information into perspective. In the context of symbolic representations, the term is often used to contrast methods that aim at making semantics machine-understandable from those that merely operate on a syntactic level.  In the context of [knowledge graphs](#knowledge-graph-kg) and in contrast to epistemology, the term is loosely used to describe statements (about the world) irrespective of whether these statements are factual. 
 
 \[**Used by:** A-6677\]
+
+[Back to Index](#Index)
+
+## Knowledge Extraction
+Knowledge extraction is the creation of knowledge from structured (relational databases, XML) and unstructured (text, documents, images) sources. The resulting knowledge needs to be in a machine-readable and machine-interpretable format and must represent knowledge in a manner that facilitates inferencing. It requires either the reuse of existing formal knowledge (reusing identifiers or ontologies) or the generation of a schema based on the source data.
+
+\[**Used by:** A-7136, A-6677\}
 
 [Back to Index](#Index)
 
@@ -160,6 +181,21 @@ Linked data currently constitutes the largest publicly available [knowledge grap
 
 [Back to Index](#Index)
 
+## Named-Entity Recognition
+Named-entity recognition (NER) (also known as entity identification, entity chunking and entity extraction) is a subtask of information extraction that seeks to locate and classify named entity mentions in unstructured text into pre-defined categories such as the person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.
+
+\[**Used by:** A-7136, A-6677\]
+
+[Back to Index](#Index)
+
+
+## Natural Language Processing
+Natural language processing (NLP) is a subfield of linguistics, computer science, information engineering, and artificial intelligence concerned with the interactions between computers and human (natural) languages, in particular how to program computers to process and analyze large amounts of natural language data.
+
+\[**Used by:** A-7136, A-6677\]
+
+[Back to Index](#Index)
+
 
 ## Ontology
 
@@ -171,12 +207,11 @@ A shared domain model usually expressed using the W3C standard [Web Ontology Lan
 
 ## Ontology Alignment
 
-[Ontology](#Ontology) alignment (also called ontology matching or Knowledge graph Schema[Knowledge Graph Schema](#Knowledge-Graph-Schema) matching aims at finding correspondences between semantically related entities of different [ontologies](#Ontology). These correspondences may be equivalences between entities, but may also be other relations, such as subsumption or disjointness, between ontology entities. [Ontology](#Ontology) entities considered are usually the named entities in ontologies, such as classes, properties or individuals. However, these entities may also be more complex expressions, such as logical ontology axioms, concept definitions, queries or term building expressions. Ontology matching results, called alignments, can thus express with various degrees of precision the relations between the ontologies under consideration. Therefore, ontology alignment can be used for various tasks involving data integration, such as ontology merging, query answering, data translation or for browsing the [Semantic Web](#Semantic-Web). For example, a library can take advantage of alignments for automatically ordering a book and the seller can use them for checking the availability of a reference by the library. Matching ontologies enable the knowledge and data expressed in the matched ontologies to interoperate. It is thus of importance for applications which rely on integrated data.
+[Ontology](#Ontology) matching/alignment or [Knowledge Graph Schema](#Knowledge-Graph-Schema) matching aims at finding correspondences between semantically related entities of different ontologies. These correspondences may stand for equivalence as well as other relations, such as subsumption or disjointness, between ontology entities. Ontology entities, in turn, usually denote the named entities of ontologies, such as classes, properties or individuals. However, these entities may also be more complex expressions, such as formulas, concept definitions, queries or term building expressions. Ontology matching results, called alignments, can thus express with various degrees of precision the relations between the ontologies under consideration. Therefore, ontology alignment can be used for various tasks, such as ontology merging, query answering, data translation or for browsing the semantic web. For example, the library can take advantage of alignments for automatically ordering a book and the seller can use them for checking the availability of a reference by the library. Matching ontologies enables the knowledge and data expressed in the matched ontologies to interoperate. It is thus of utmost importance for the applications whose interoperability is jeopardised by heterogeneous ontologies.
 
 \[**Used by:** A-6677\]
 
 [Back to Index](#Index)
-
 
 
 ## Open Knowledge Network (OKN)
@@ -196,6 +231,13 @@ A W3C standard for expressing [ontologies](#Ontology), in particular as [knowled
 
 [Back to Index](#Index)
 
+
+## Public Health Informatics
+Public health informatics: the systematic application of information and computer science and technology to public health practice, research, and learning. It is one of the subdomains of health informatics.
+
+\[**Used by:** A-7136\]
+
+[Back to Index](#Index)
 
 ## Question Answering
 
@@ -252,9 +294,6 @@ A field of research concerned with developing methods and tools for efficient da
 [Back to Index](#Index)
 
 
-[Ontology](#Ontology) matching or [Knowledge Graph Schema](#Knowledge-Graph-Schema) matching aims at finding correspondences between semantically related entities of different ontologies. These correspondences may stand for equivalence as well as other relations, such as subsumption or disjointness, between ontology entities. Ontology entities, in turn, usually denote the named entities of ontologies, such as classes, properties or individuals. However, these entities may also be more complex expressions, such as formulas, concept definitions, queries or term building expressions. Ontology matching results, called alignments, can thus express with various degrees of precision the relations between the ontologies under consideration. Therefore, ontology alignment can be used for various tasks, such as ontology merging, query answering, data translation or for browsing the semantic web. For example, the library can take advantage of alignments for automatically ordering a book and the seller can use them for checking the availability of a reference by the library. Matching ontologies enables the knowledge and data expressed in the matched ontologies to interoperate. It is thus of utmost importance for the applications whose interoperability is jeopardised by heterogeneous ontologies.
-
-
 ## Spatial Decision Support
 
 Spatial decision support is the computational or informational assistance for making better informed decisions about problems with a geographic or spatial component. This support assists with the development, evaluation and selection of proper policies, plans, scenarios, projects, interventions, or solution strategies. Spatial decision making faces various decision complexities such as:
@@ -284,53 +323,3 @@ Source: P. Jankowski, Spatial decision support systems, in: K.K. Kemp (Ed.), Enc
 URI: http://sdsportal.sdsconsortium.org/ontology/?n=SDSSAbout:SDSS
 
 \[**Used by:** A-7908\]
-
-
-## Geoparsing
-
-Geoparsing is a special toponym resolution process of converting free-text descriptions of places (such as "twenty miles northeast of Jalalabad") into unambiguous geographic identifiers, such as geographic coordinates expressed as latitude-longitude.
-
-Source: https://en.wikipedia.org/wiki/Toponym_resolution
-
-\[**Used by:** A-7136\]
-
-[Back to Index](#Index)
-
-## Named-Entity Recognition
-Named-entity recognition (NER) (also known as entity identification, entity chunking and entity extraction) is a subtask of information extraction that seeks to locate and classify named entity mentions in unstructured text into pre-defined categories such as the person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.
- 
-Source: https://en.wikipedia.org/wiki/Named-entity_recognition
-
-\[**Used by:** A-7136\]
-
-[Back to Index](#Index)
-
-## Natural Language Processing
-Natural language processing (NLP) is a subfield of linguistics, computer science, information engineering, and artificial intelligence concerned with the interactions between computers and human (natural) languages, in particular how to program computers to process and analyze large amounts of natural language data.
- 
-Source: https://en.wikipedia.org/wiki/Natural_language_processing
-
-\[**Used by:** A-7136\]
-
-[Back to Index](#Index)
-
-## Public Health Informatics
-Public health informatics: the systematic application of information and computer science and technology to public health practice, research, and learning. It is one of the subdomains of health informatics.
- 
-Source: https://en.wikipedia.org/wiki/Public_health_informatics
-
-
-\[**Used by:** A-7136\]
-
-[Back to Index](#Index)
-
-## Knowledge Extraction
-Knowledge extraction is the creation of knowledge from structured (relational databases, XML) and unstructured (text, documents, images) sources. The resulting knowledge needs to be in a machine-readable and machine-interpretable format and must represent knowledge in a manner that facilitates inferencing. 
-It requires either the reuse of existing formal knowledge (reusing identifiers or ontologies) or the generation of a schema based on the source data.
- 
-Source: https://en.wikipedia.org/wiki/Knowledge_extraction
-
-\[**Used by:** A-7136\}
-
-[Back to Index](#Index)
-
